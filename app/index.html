@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Robotkang APP</title>
+<meta name="author" content="亢志军，Robotkang APP" />
+    <meta name="keywords" content="亢志军，Robotkang APP" />
+
+<link rel="shortcut icon" href="http://www.robotkang.cc" />
+
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link href="/images/favicon.png" rel="shortcut icon" type="image/png">
+
+
+<link rel="stylesheet" href="style/css/jquery.fullPage.css" />
+<link rel="stylesheet" href="style/css/base.css" />
+<link rel="stylesheet" href="style/css/welcome.css" />
+<link rel="stylesheet" href="style/css/jquery.bxslider.css">
+
+<script src="style/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.bxslider.js"></script>
+
+<script type="text/javascript" src="style/js/main.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+		my_section1.init();
+  $('#welcome').fullpage({
+	'verticalCentered': false,
+	'css3': true,
+	'sectionsColor': ['#6cbb52','#e89c38', '#40a3e1'],
+	'navigation': true,
+	'navigationPosition': 'right',
+			//'easing' : 'easeInOutBounce',
+			'afterRender' : function (index,anchorLink ) {
+				$(".iphone_img").addClass('fadeInTop');
+			},
+			'afterSlideLoad':function(index ) {
+
+			}
+			,
+	'afterLoad': function(anchorLink, index){
+				if( index == 2) {
+					$(".iphone_img").removeClass('fadeInTop');
+				}
+				if(index==3){
+					my_section1.init();
+				}
+				if(index==1){
+					my_section1.init();
+				}
+				if(index==2){
+					my_section2.init();
+				}
+
+	},
+	'onLeave': function(index, nextIndex, direction){
+	  if( nextIndex  == 1 ) {
+					$(".iphone_img").addClass('fadeInTop');
+				}
+				if(index==1){
+					my_section1.anim();
+				}
+				if(index==3){
+					my_section1.anim();
+				}
+				if(index==2){
+					my_section2.anim();
+				}
+	}
+  });
+});
+</script>
+</head>
+<body>
+
+    <div id="welcome">
+        <div class="section" id="section0">
+           <div class="my_section">
+                <div class="my_codoon fl">
+                    <div class="text1_box">
+                        <div class="text1 fl">公众号：</div><div class="text3 fl">Robotkang</div>
+                        <div class="blank0"></div>
+                    </div>
+                    <p><div class="text2">个人微信公众平台！</div></p>
+                    <div class="download_box">
+                        <div class="left">
+                            <div class="icon erweima"></div>
+                        </div>
+                        <div class="right">
+                            <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1ODIxNzI3OA==&scene=122&from=timeline&isappinstalled=0#wechat_redirect" class="item pc_download item_pc" style="margin-bottom:15px;">iPhone版下载</a>
+                            <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1ODIxNzI3OA==&scene=122&from=timeline&isappinstalled=0#wechat_redirect" class="item pc_download item_pc">Andriod版下载</a>
+                            <a class="item mobile_download mobile_icon"><img src="style/images/now_download.png" alt="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1ODIxNzI3OA==&scene=122&from=timeline&isappinstalled=0#wechat_redirect"></a>
+                        </div>
+                        <div class="blank10"></div>
+                    </div>
+                </div>
+                <div class="iphone fr">
+                    <div class="iphone_icon iphone_img">
+                      <div id="iphone_slider_wrapper">
+                        <div id="iphone_slider">
+                          <ul id="iphone_slider_ul">
+                            <li><img src="style/images/iphone1.png"></li>
+                            <li><img src="style/images/iphone2.png"></li>
+                            <li><img src="style/images/iphone3.png"></li>
+                            <li><img src="style/images/iphone4.png"></li>
+                            <li><img src="style/images/iphone5.png"></li>
+                            <li><img src="style/images/iphone6.png"></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <img class="iphone_xxoo" src="style/images/iphone_xxoo.png">
+                    </div>
+                </div>
+                <div class="blank0"></div>
+           </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="my_section ">
+               <div class="rom_txt fr">
+                    <h2 class="bigtit">平海那些事</h2>
+                    <p class="notes">关注平海发展，分享平海精彩</p>
+                    <div class="blank10"></div>
+                    <ul class="clearfix">
+                      <li>平海旅游</li>
+                      <li>平海景点</li>
+                      <li>平海文化</li>
+                      <li>黄金沙滩</li>
+                      <li>旅游攻略</li>
+                      <li>平海旅游网</li>
+                    </ul>
+                    <div><a class="rom_download mobile_icon" href="http://www.toutiao.com/m52334417813/"><img src="style/images/download.png" alt=""></a></div>
+                </div>
+                <div class="cod_rom fl">
+                    <img src="style/images/rom1.png" alt="">
+                    <img src="style/images/rom2.png" alt="">
+                    <img src="style/images/rom3.png" alt="">
+                    <img src="style/images/rom4.png" alt="">
+                    <img src="style/images/rom5.png" alt="">
+                    <img src="style/images/rom6.png" alt="">
+                    <img src="style/images/rom7.png" alt="">
+                    <img src="style/images/rom8.png" alt="">
+                    <img src="style/images/rom9.png" alt="">
+                    <img src="style/images/rom10.png" alt="">
+                </div>
+                <div class="blank0"></div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="my_section">
+                  <div class="rom_txt fl souhuan">
+                    <h2 class="bigtit">平海那些事</h2>
+                    <p class="notes">掌控平海生活，旅游资讯，吃喝玩乐</p>
+                    <ul class="clearfix">
+                      <li>旅游景点</li>
+                      <li>旅游攻略</li>
+                      <li>妈祖文化</li>
+                      <li>平海酒店</li>
+                      <li>平海风景</li>
+                      <li>莆田平海</li>
+                    </ul>
+                    <div><a class="rom_download mobile_icon" id="buy" href="http://kuaibao.qq.com/s/MEDIANEWSLIST?chlid=5371135&from=singlemessage&isappinstalled=1"><img src="style/images/buy_smartband.png" alt=""></a></div>
+                </div>
+                <div class="shouhuanImg  fr">
+                    <img src="style/images/shouhuan.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed head">
+        <div class="head_content">
+            <div class="icon logo logo_blue fl" style="width: 193px; height: 46px"></div>
+            <div class="fr login_box">
+               
+                <a href="#" class="">微信号</a>
+                <span class="">|</span>
+                <a href="#" class="">123456789</a>
+                
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="fixed bottom">
+        <div class="bottom_content">
+            <a href="/about/aboutus/">关于我们</a>
+          <span>|</span>
+            <a href="/about/ad/">广告合作</a>
+            <label class="bottom_tips">
+                <span>|</span>
+                <a href="/about/copyright/">免责声明</a>
+                <span>|</span>
+                <a href="/about/contact/">联系我们</a>
+            </label>
+            <br />
+            <p>Copyright © 2017 Robotkang APP <a href="http://www.robotkang.cc/" target="_blank">亢志军</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

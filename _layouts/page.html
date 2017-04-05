@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time>
+      <span class="post-meta__tags tags"></span>
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+<!--<div id="top"><a id="rocket" href="javascript:;" title="返回顶部"><i></i></a></div>
+  <script src="/res/js/light.js"></script>
+  {% if page.math == true %}<script src="http://cdn.bootcss.com/mathjax/2.4.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script>MathJax.Hub.Config({tex2jax:{inlineMath: [['\\','\\']],displayMath: [['$$','$$']]}});</script>{% endif %}   -->
+
+  <section class="post">
+    {{ content }}
+  </section>
+</article>
