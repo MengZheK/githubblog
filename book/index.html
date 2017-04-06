@@ -1,567 +1,380 @@
-	<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Robotkang's library</title>
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link href="/images/favicon.png" rel="shortcut icon" type="image/png">
 
-<!-- Behavioral Meta Data -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="icon" type="image/png" href="img/small-logo-01.png">
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,900italic,700italic,700,500italic,400italic,500,300italic,300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='style.css' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Robotkang'library</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.useso.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 
 </head>
-<body>
-
-<a name="ancre"></a>
-
-<!-- CACHE -->
-<div class="cache"></div>
-
-<!-- HEADER -->
-
-<div id="wrapper-header">
-	<div id="main-header" class="object">
-		<div class="logo"><img src="img/logo-burst.png" alt="logo platz" height="38" width="90"></div>
-        <div id="main_tip_search"> 
-			<form>
-				<input type="text" name="search" id="tip_search_input" list="search" autocomplete=off required>
-			</form>
-		</div>
-        <div id="stripes"></div>
-    </div>
-</div>
-
-<!-- NAVBAR -->
-
-<div id="wrapper-navbar">
-		<div class="navbar object">
-    		<div id="wrapper-sorting">
-            <div id="wrapper-title-1">
-            <div class="top-rated object">Movies</div>
-            	<div id="fleche-nav-1"></div>
-    		</div>
-            
-            <div id="wrapper-title-2">
-            <a href="books.html"><div class="recent object">Books</div></a>
-                <div id="fleche-nav-2"></div>
-    		</div>
-            
-            <div id="wrapper-title-3">
-            <a href="others"><div class="oldies object">Others</div></a>
-                <div id="fleche-nav-3"></div>
-    		</div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-terminal"></i>  Robotkang'library
+                </a>
             </div>
-            <div id="wrapper-bouton-icon">
-            	<div id="bouton-ai"><img src="img/icon-ai.svg" alt="illustrator" title="Illustrator" height="28" width="28"></div>
-            	<div id="bouton-psd"><img src="img/icon-psd.svg" alt="photoshop" title="Photoshop" height="28" width="28"></div>
-            	<div id="bouton-theme"><img src="img/icon-themes.svg" alt="theme" title="Theme" height="28" width="28"></div>
-            	<div id="bouton-font"><img src="img/icon-font.svg" alt="font" title="Font" height="28" width="28"></div>
-            	<div id="bouton-photo"><img src="img/icon-photo.svg" alt="photo" title="Photo" height="28" width="28"></div>
-            	<div id="bouton-premium"><img src="img/icon-premium.svg" alt="premium" title="Premium" height="28" width="28"></div>
-			</div>
-    	</div>
-    </div>
 
-<!-- FILTER -->	
-
-	<div id="main-container-menu" class="object">
-    	<div class="container-menu">
-        	
-            <div id="main-cross">
-            	<div id="cross-menu"></div>
-            </div>
-            
-            <div id="main-small-logo">
-            	<div class="small-logo"></div>
-            </div>
-            
-            <div id="main-premium-ressource">
-                <div class="premium-ressource"><a href="#">Premium resources</a></div>
-            </div>
-            
-            <div id="main-themes">
-                <div class="themes"><a href="#">Latest themes</a></div>
-            </div>
-            
-            <div id="main-psd">
-                <div class="psd"><a href="#">PSD goodies</a></div>
-            </div>
-                
-            <div id="main-ai">
-                <div class="ai"><a href="#">Illustrator freebies</a></div>
-            </div>
-            
-            <div id="main-font">
-                <div class="font"><a href="#">Free fonts</a></div>
-            </div>
-            
-            <div id="main-photo">
-                <div class="photo"><a href="#">Free stock photos</a></div>
-            </div>
-            
-        </div>
-    </div>
-
-
-<!-- PORTFOLIO -->
-
-	<div id="wrapper-container">
-    
-		<div class="container object">
-
-			<div id="main-container-image">
-                       
-					<section class="work">
-
-						<figure class="white">
-							<a href="details.html">
-								<img src="http://omjh2j5h3.bkt.clouddn.com/movie/xiongdilian.jpeg" alt="" />
-								<dl>
-									<dt>Band of Brothers</dt>
-									<dd>兄弟连是2001年播出的美国10集电视连续剧，改编自Stephen Ambrose的畅销书《Band of Brothers》,史蒂文·斯皮尔伯格执导，戴米恩·刘易斯、马修·赛特等众多好莱坞明星主演，描写美国101空降师506团E连在第二次世界大战欧洲战场的真实故事。</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-psd.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">兄弟连-2016.12</div>
-							</div>
-                        </figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="http://omjh2j5h3.bkt.clouddn.com/movie/game.jpeg" alt="" />
-								<dl>
-									<dt>Game of Thrones Season</dt>
-									<dd>「长夜将至，我从今开始守望，至死方休。我将不娶妻、不封地、不生子。我将不戴宝冠，不争荣宠。我将尽忠职守，生死於斯。我是黑暗中的利剑，长城中的守卫。我是抵御寒冷的烈焰，破晓时分的光线，唤醒死者的号角，守护王国的铁卫。我将生命与荣耀献给守夜人，今夜如此，夜夜皆然。」残暴、惊艳 </dd>
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-font.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">权力的游戏-2017.01</div>
-							</div>
-						</figure>	
-
-							
-
-						<figure class="white">
-							<a href="#">
-								<img src="http://omjh2j5h3.bkt.clouddn.com/movie/renming.jpeg" alt="" />
-								<dl>
-									<dt>人民的名义</dt>
-									<dd>该剧以检察官侯亮平的调查行动为叙事主线，讲述了当代检察官维护公平正义和法制统一、查办贪腐案件的故事,集中了几十位老戏骨飙戏的反腐正剧</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-psd.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">人民的名义-2017.04</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/ai-1.jpg" alt="" />
-								<dl>
-									<dt>Illustrator freebies</dt>
-									<dd>A set of 6 outline beer icons created with Adobe Illustrator. Free Ai designed and released by Justas Galaburda.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-ai.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Illustrator Freebies</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/theme-2.jpg" alt="" />
-								<dl>
-									<dt>Html theme</dt>
-									<dd>Symphony is a responsive one page website template designed with sketches and coded with html5 and php. Freebie released by Lacoste Xavier.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-themes.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Html theme</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/psd-3.jpg" alt="" />
-								<dl>
-									<dt>PSD goodies</dt>
-									<dd>A set of 9 high-quality Apple Watch mockups created with Photoshop smart objects. Free PSD released by Samuel Medvedowsky.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-psd.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">PSD Goodies</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/font-2.jpg" alt="" />
-								<dl>
-									<dt>Free font</dt>
-									<dd>Beyno is a free uppercase font with a futuristic feel and look. Designed and released by Fabian Korn.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-font.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Free font</div>
-							</div>
-						</figure>
-            	
-    		
-
-	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/font-3.jpg" alt="" />
-								<dl>
-									<dt>Wordpress theme</dt>
-									<dd>Symphony is a responsive one page website template designed with sketches and coded with html5 and php. Freebie released by Lacoste Xavier.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-font.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Wordpress theme</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/ai-2.jpg" alt="" />
-								<dl>
-									<dt>Illustrator icons</dt>
-									<dd>A set of 16 outline space icons created with Adobe Illustrator. Free Ai designed and released by Justas Galaburda.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-ai.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Illustrator icons</div>
-							</div>
-						</figure>		
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/icons-1.jpg" alt="" />
-								<dl>
-									<dt>PSD icons</dt>
-									<dd>Grap is a set of 9 simple but coloured icons created with Photoshop. Free PSD released by kamran bhatti.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-psd.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">PSD icons</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/ui-1.jpg" alt="" />
-								<dl>
-									<dt>UI design</dt>
-									<dd>Acess to our largest database of the web about the ui and look into a ton of professionnal tools</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-premium.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Premium ui</div>
-							</div>
-						</figure>
-                        
-                        <figure class="white">
-							<a href="#">
-								<img src="img/font-5.jpg" alt="" />
-								<dl>
-									<dt>Free font</dt>
-									<dd>A set of 6 outline beer icons created with Adobe Illustrator. Free Ai designed and released by Justas Galaburda.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-font.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Free font</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/theme-2.jpg" alt="" />
-								<dl>
-									<dt>Html theme</dt>
-									<dd>Symphony is a responsive one page website template designed with sketches and coded with html5 and php. Freebie released by Lacoste Xavier.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-themes.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Html theme</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/psd-5.jpg" alt="" />
-								<dl>
-									<dt>PSD mockup</dt>
-									<dd>A very detailed Macbook Air mockup created with Photoshop and providing smart objects. Free PSD released by Barin Cristian.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-psd.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">PSD mockup</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/icons-3.jpg" alt="" />
-								<dl>
-									<dt>PSD icons</dt>
-									<dd>A set of 16 hand gestures icons you may find useful for your projects. Free PSD released by Rovane Durso.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-psd.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">PSD icons</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/font-4.jpg" alt="" />
-								<dl>
-									<dt>Free font</dt>
-									<dd>Julep is an elegant and modern free font released in vector formats (Ai, EPS and PDF). Designed and released by Jeremy Ross.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-font.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Free font</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/theme-3.jpg" alt="" />
-								<dl>
-									<dt>HTML theme</dt>
-									<dd>Gorgo is a free HTML portfolio template for freelancers, photographers, agencies, designers and other creative fields. Designed and released by Aristothemes.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-themes.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">HTML theme</div>
-							</div>
-						</figure>		
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/font-6.jpg" alt="" />
-								<dl>
-									<dt>Free font</dt>
-									<dd>REEF is a rounded font free for commercial and personal use. It's strength lies in simplicity and construction.</dd>	
-								</dl>
-							</a>	
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-font.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">Free font</div>
-							</div>
-						</figure>	
-
-						<figure class="white">
-							<a href="#">
-								<img src="img/theme-4.jpg" alt="" />
-								<dl>
-									<dt>HTML theme</dt>
-									<dd>ActiveBox is a free responsive HTML template featured by clean and minimalistic design. Designed and coded by Kamal Chaneman.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-themes.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">HTML theme</div>
-							</div>
-						</figure>	
-
-
-
-<figure class="white">
-							<a href="#">
-								<img src="img/theme-4.jpg" alt="" />
-								<dl>
-									<dt>HTML theme</dt>
-									<dd>ActiveBox is a free responsive HTML template featured by clean and minimalistic design. Designed and coded by Kamal Chaneman.</dd>	
-								</dl>
-							</a>
-                            <div id="wrapper-part-info">
-                            	<div class="part-info-image"><img src="img/icon-themes.svg" alt="" width="28" height="28"/></div>
-                            	<div id="part-info">HTML theme</div>
-							</div>
-						</figure>
-					</section>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">BOOKS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">MOVIES</a>
+                    </li>                    
+                    <li>
+                        <a class="page-scroll" href="#team">OTHERS</a>
+                    </li>                    
+                    <li>
+                        <a class="page-scroll" href="#works">Team</a>
+                    </li>
                     
-				</div>	
-            	    
-			</div>
-         
-
-
-
-    <!--<div id="wrapper-oldnew">
-    	<div class="oldnew">
-        	<div class="wrapper-oldnew-prev">
-            	<div id="oldnew-prev"></div>
-        	</div>
-            <div class="wrapper-oldnew-next">
-            	<div id="oldnew-next"></div>
-    		</div>
+                    
+                    <li>
+                        <a href="http://robotkang.cc" style="color: #F4D03F;">KANG</a>
+                    </li>
+                            
+                                             
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-	</div>-->     
-            
-	<div id="wrapper-thank">
-    	<div class="thank">
-        	<div class="thank-text">Robotkang<span style="letter-spacing:-5px;">k</span>ang</div>
-    	</div>
-	</div>
-	    
-	<div id="main-container-footer">
-		<div class="container-footer">
-        	
-            <div id="row-1f">
-            	<div class="text-row-1f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">What is Platz</span><br>Platz is a blog showcasing hand-picked free themes, design stuff, free fonts and other resources for web designers.</div>
-            </div>
-            
-            <div id="row-2f">
-            	<div class="text-row-2f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">How does it work</span><br>Platz offers you all the latest freebies found all over the fourth corners without to pay.</div>
-            </div>
-            
-            <div id="row-3f">
-            	<div class="text-row-3f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Get in touch!</span><br>Subscribe our RSS or follow us on Facebook, Google+, Pinterest or Dribbble to keep updated.</div>
-            </div>
-            
-            <div id="row-4f">
-            	<div class="text-row-4f"><span style="font-weight:600;font-size:15px;color:#666;line-height:250%;text-transform:uppercase;letter-spacing:1.5px;">Newsletter</span><br>You will be informed monthly about the latest content avalaible.</div>
+        <!-- /.container -->
+    </nav>
 
-				<div id="main_tip_newsletter"> 
-					<form>
-						<input type="text" name="newsletter" id="tip_newsletter_input" list="newsletter" autocomplete=off required>
-					</form>
+<!-- Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1>We are <span class="brand-heading">Momentum</span></h1>
+                        <p class="intro-text">A PLACE TO ACCUMULATE KNOWLEDGE</p>
+                        <a href="#services" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- Services Section -->
+
+<div id="achivements" class="section dark-bg">
+			<div class="container">	
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="achivement-box">
+							<i class="fa fa-smile-o"></i>
+							<span class="count">120</span>
+							<h4>Happy clients</h4>                            
+						</div>
+					</div> 
+					<div class="col-md-3 col-sm-3">
+						<div class="achivement-box">
+							<i class="fa fa-code"></i>
+							<span class="count">7,800</span>
+							<h4>Working hours</h4>                            
+						</div>
+					</div> 
+					<div class="col-md-3 col-sm-3">
+						<div class="achivement-box">
+							<i class="fa fa-check-square-o"></i>
+							<span class="count">340</span>
+                            <h4>Projects completed</h4>
+						</div>
+					</div> 
+					<div class="col-md-3 col-sm-3">
+						<div class="achivement-box">
+							<i class="fa fa-trophy"></i>
+							<span class="count">25</span>
+							<h4>Awards won</h4>                            
+						</div>
+					</div> 
 				</div>
-            </div>
-            
+			</div>
 		</div>
-	</div>
-    
-    
-    <div id="wrapper-copyright">
-		<div class="copyright">
-    		<div class="copy-text object">Copyright &copy; 2017.Robotkang. All rights reserved.</div>
-    		
-			<div class="wrapper-navbouton">
-    			<div class="google object">g</div>
-    			<div class="facebook object">f</div>
-    			<div class="linkin object">i</div>
-    			<div class="dribbble object">d</div>
-    		</div>
-    	</div>
-    </div>
 
+<!-- books -->
+
+<div id="services" >
+  <div class="container"> 
+      <div class="section-title text-center center">
+      <h2><strong>BOOKS</strong></h2>
+      <hr>
+    </div>
+      
+    
+    <div class="row">
+      <div class="about-text" style="margin-left: 10px;"> 
+      <div > 
+        <h4><strong>1.Web Design</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+      </div>
+      <div > 
+        <h4><strong>2.Development</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+      </div>
+      <div > 
+        <h4><strong>3.Branding</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+      </div>
+      <div > 
+        <h4><strong>4.Marketing</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
-<!-- SCRIPT -->
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2><strong>MOVIES&TV</strong></h2>
+      <hr>
+    </div>
+    <div class="row">
+      
+        <div class="about-text"> 
+          <div ><h4><strong>1.《兄弟连》-2016.12</strong></h4>
+<p style="margin-top: 0px;margin-bottom: 10px;color: #FF4500"><strong>[USA/UK]</strong>&nbsp;外文名:Band of Brothers/史蒂文·斯皮尔伯格... /剧情、二战/10集/14集（原版/央视版）/
+ HBO、梦工厂、梦工厂电视公司、BBC、 Playtone/2001-09-09</p>
+          <p style="margin-top: 0px;margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p></div>
+          
+          <div ><h4><strong>2.《权力的游戏》-2017.01</strong></h4>
+<p style="margin-top: 0px;margin-bottom: 10px;color: #FF4500"><strong>[USA]</strong>&nbsp;外文名:Game of Thrones /戴维·贝尼奥夫、D·B·威斯、艾伦·泰勒 /剧情、奇幻、史诗、战争/73集（八季）/HBO电视网 /2011-4-17</p>
+          <p style="margin-top: 0px;margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam.</p></div>
+         
+          <div ><h4><strong>3.《人民的名义》-2017.04</strong></h4>
+<p style="margin-top: 0px;margin-bottom: 10px;color: #FF4500"><strong>[China]</strong>&nbsp;李路/当代、反腐、检查/55集/最高人民检察院影视中心/2017-3-28</p>
+          <p style="margin-top: 0px;margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<script src="http://cdn.bootcss.com/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
-<script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js"></script>
-<script type="text/javascript" src="js/fastclick.min.js"></script>
-<script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
-<script type="text/javascript" src="js/jquery.animate-shadow-min.js"></script>    
+
+<!-- others -->	
+<div id="team" >
+  <div class="container"> 
+      <div class="section-title text-center center">
+      <h2><strong>OTHERS</strong></h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="about-text" style="margin-left: 10px;"> 
+      <div > 
+        <h4><strong>1.Web Design</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+      </div>
+      <div > 
+        <h4><strong>2.Development</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+      </div>
+      <div > 
+        <h4><strong>3.Branding</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+      </div>
+      <div > 
+        <h4><strong>4.Marketing</strong></h4>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="works">
+  <div class="container"> <!-- Container -->
+    <div class="section-title text-center center">
+      <h2> <strong>TEAM</strong></h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p style="color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type"  style="color: #fff;">
+            <li ><a style="color: #fff;" href="#" data-filter="*" class="active">All</a></li>
+            <li ><a style="color: #fff;" href="#" data-filter=".web">BOOKS</a></li>
+            <li ><a style="color: #fff;" href="#" data-filter=".app">MOVIES&TV</a></li>
+            <li ><a style="color: #fff;" href="#" data-filter=".branding">OTHERS</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/01.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/02.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>App Development</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/03.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/04.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/04.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/05.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>App Development</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/05.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/06.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Branding</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/06.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/07.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>App Development, Branding</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/07.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/08.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                <small>Web Design</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+     
+      
+<nav id="footer">
+  <div class="container">
+    <div class="pull-left fnav" style="color: #F4D03F;" >
+      <p><strong>Copyright &copy; 2017 Robotkang. All Rights Reserved. </strong></p>
+    </div>
+    <div class="pull-right fnav">
+      <ul class="footer-social">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+<!-- Javascripts
+    ================================================== --> 
 <script type="text/javascript" src="js/main.js"></script>
-<script>
-
-/* PRELOADER */
-
-function preloader() {
-	if (document.images) {
-		var img1 = new Image();
-		var img2 = new Image();
-		var img3 = new Image();
-		var img4 = new Image();
-		var img5 = new Image();
-		var img6 = new Image();
-		var img7 = new Image();
-		var img8 = new Image();
-		var img9 = new Image();
-		var img10 = new Image();
-		var img11 = new Image();
-		var img12 = new Image();
-		var img13 = new Image();
-		var img14 = new Image();
-		var img15 = new Image();
-		var img16 = new Image();
-		var img17 = new Image();
-		var img18 = new Image();
-		var img19 = new Image();
-		var img20 = new Image();
-                var img21 = new Image();
-		var img22 = new Image();
-		var img23 = new Image();
-		var img24 = new Image();
-		var img25 = new Image();
-
-
-		img1.src = "img/psd-4.jpg";
-		img2.src = "img/font-1.jpg";
-		img3.src = "img/psd-1.jpg";
-		img4.src = "img/psd-2.jpg";
-		img5.src = "img/ai-1.jpg";
-		img6.src = "img/theme-2.jpg";
-		img7.src = "img/psd-3.jpg";
-		img8.src = "img/font-2.jpg";
-		img9.src = "img/font-3.jpg";
-		img10.src = "img/ai-2.jpg";
-		img11.src = "img/icons-1.jpg";
-		img12.src = "img/ui-1.jpg";
-		img13.src = "img/font-5.jpg";
-		img14.src = "img/theme-2.jpg";
-		img15.src = "img/psd-5.jpg";
-		img16.src = "img/icons-3.jpg";
-		img17.src = "img/font-4.jpg";
-		img18.src = "img/theme-3.jpg";
-		img19.src = "img/font-6.jpg";
-		img20.src = "img/theme-4.jpg";
-                img21.src = "img/icons-1.jpg";
-		img22.src = "img/ui-1.jpg";
-		img23.src = "img/font-5.jpg";
-		img24.src = "img/theme-2.jpg";
-		img25.src = "img/psd-5.jpg";
-
-	}
-}
-function addLoadEvent(func) {
-	var oldonload = window.onload;
-	if (typeof window.onload != 'function') {
-		window.onload = func;
-	} else {
-		window.onload = function() {
-			if (oldonload) {
-				oldonload();
-			}
-			func();
-		}
-	}
-}
-addLoadEvent(preloader);
-
-</script>
-
 </body>
 </html>

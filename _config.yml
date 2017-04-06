@@ -1,5 +1,5 @@
 # Basic
-title: 亢志军的个人网站 - Kang Zhijun's Personal Website
+title: 亢志军
 subtitle: 自留地
 description: 欢迎来到我的个人网站~
 # 头像里面的标题
@@ -64,7 +64,9 @@ nav:
     - {title: 标签, description: tags, url: '/tags'}   
     - {title: 留言, description: liuyan, url: '/liuyan'}
     - {title: 资源, description: ziyuan, url: '/ziyuan'}
-    - {title: 关于我, description: about, url: '/about'}      
+    - {title: 关于我, description: about, url: '/about'}
+
+          
     
 
 # Pagination
