@@ -60,7 +60,7 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 <p>
 <a  style="color:#272727" target="_blank"> <h1>游戏「Games」</h1></a>  
 </p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.templatesy.com/demo/462/index.html" target="_blank" >2048</a>- 经典小游戏.&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.templatesy.com/demo/462/index.html" target="_blank" >2048</a>- 经典小游戏.&nbsp;&nbsp;
 <a href="http://www.templatesy.com/demo/194/index.html" target="_blank" >Tank</a>- 经典中的经典...
 <a href="http://www.templatesy.com/demo/342/index.html"  target="_blank" >Drum Kit</a>- 在线架子鼓.&nbsp;&nbsp;
 <a href="/gamebird/"  target="_blank" >Flappy Bird</a>- 像素小鸟.
