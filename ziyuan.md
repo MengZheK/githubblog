@@ -8,12 +8,14 @@ title: 资源「USEFUL LINKS」
 <P>       
 <h3> Personal Website</h3>   
 <p>
-<a href="/app/" target="_blank">APP下载</a>- 专属软件.&nbsp;&nbsp;
+
 <a href="/college/" target="_blank">大学|四年</a>- 记青春年华.&nbsp;&nbsp;
 <a href="/college/" style="color:#DC143C" target="_blank">二三好友</a>- 似水流年 & FLAG&nbsp;&nbsp;
 <a href="/book/" style="color:#DC143C" target="_blank">个人书单</a>-  FLAG&nbsp;&nbsp;
 <a href="http://robotkang.xyz" style="color:#DC143C" target="_blank">Company</a>- FLAG
 <p><a href="http://wiki.robotkang.cc" target="_blank" style="text-decoration:none" > Robotkang's Wiki </a>个人维基百科库，还未整理！    
+<a href="/app/" target="_blank">APP下载1</a>
+<a href="/APP/" target="_blank">APP下载2</a>- 专属软件.&nbsp;&nbsp;
 
 <P>       
 <h3> Some useful/beautiful web </h3>   
