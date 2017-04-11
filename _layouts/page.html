@@ -11,9 +11,13 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-<!--<div id="top"><a id="rocket" href="javascript:;" title="返回顶部"><i></i></a></div>
-  <script src="/res/js/light.js"></script>
-  {% if page.math == true %}<script src="http://cdn.bootcss.com/mathjax/2.4.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script>MathJax.Hub.Config({tex2jax:{inlineMath: [['\\','\\']],displayMath: [['$$','$$']]}});</script>{% endif %}   -->
+<link href="/css/top.css/" rel="stylesheet" type="text/css" />
+<script src="/js/jquery.js?v=1.83.min/" type="text/javascript"></script>
+<script src="/js/top.js/"></script>
+<div style="display: none;" id="rocket-to-top">
+<div style="opacity:0;display: block;" class="level-2"></div>
+<div class="level-3"></div>
+</div
 
   <section class="post">
     {{ content }}
