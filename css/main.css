@@ -308,7 +308,7 @@ td:last-child {
 ::selection {
     color:#fff;
     text-shadow:none;
-    background:#666666;
+    background:#7a7a7a;
   }
 img::selection {
   color:#fff;
