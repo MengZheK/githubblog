@@ -52,7 +52,7 @@ highlighter: rouge
 textColor: #FF0000
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
+cover_color: 
 
 # The blog button should not be removed.
 blog_button:

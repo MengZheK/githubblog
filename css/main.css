@@ -515,7 +515,7 @@ img::-moz-selection {
     font-size: 0.8em;/*自留地*/
     font-weight: lighter;
     letter-spacing: 3px;
-    color: #CCCCCC;
+    color:#FF0000;
     -webkit-font-smoothing: antialiased; }
 
   .panel-cover {
@@ -548,7 +548,9 @@ img::-moz-selection {
     margin-bottom: .2em; }
 
   .panel-cover__description {
-    margin: 0 30px; }
+    margin: 0 30px; 
+   font-weight:500;
+}
 
   .panel-cover__divider {
     width: 50%;
@@ -1054,6 +1056,8 @@ input[type="tel"]:-ms-input-placeholder {
   width: 100%;      
   margin-left: 0px;
   text-align: center;
+  font-weight: 600;
+ 
 }
 @media all and (max-width: 1300px) {
   .panel-cover__logo {
