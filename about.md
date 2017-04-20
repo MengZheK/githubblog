@@ -21,7 +21,7 @@ date: 2017-03-01
 <p>
 同时喜欢老罗和晓松，虽然他俩还撕逼，罗跟谁不撕逼，爱听老罗的单口相声           
 <p>
-I’m a single-dog. But codes and godgirl are my favorite.Life is colorful, this website was, is and will be the window which used to present the color of my life.
+I’m a single-dog.  But codes and godgirl are my favorite.  Life is colorful, this website was,  is and will be the window which used to present the color of my life.       
 
 <p>
 
