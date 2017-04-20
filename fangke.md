@@ -21,7 +21,7 @@ var duoshuoQuery = {short_name:"robotkang"};
 <!-- 多说公共JS代码 end -->
 <p>
 <p>
-<div class="ds-recent-visitors" data-avatar-size="50" data-num-items="100" id="ds-recent-visitors"></div>
+<div class="ds-recent-visitors" data-avatar-size="50" data-num-items="1000" id="ds-recent-visitors"></div>
 
 
 
