@@ -43,7 +43,7 @@ title: 资源「USEFUL LINKS」
 <a href="http://www.lilian.info" target="_blank" >LILIAN</a>- 牛人一枚 UESTC
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.dandyweng.com" target="_blank" >翁天信</a>- homeschooling、自由的行者...
 <p>
-<a href="http://szhshp.org" target="_blank" >szhshp</a>- 博客达人.
+<a href="http://szhshp.org" target="_blank" >szhshp</a>- 前端，设计，游戏，生活.
 
 <h3> Others</h3>  
  <p> 
