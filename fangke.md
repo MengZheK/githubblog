@@ -8,7 +8,7 @@ title: 最近访客「Recent Visitors」
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"robotkang"};
+var duoshuoQuery = {short_name:"hetao"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;

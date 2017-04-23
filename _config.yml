@@ -1,27 +1,27 @@
 # Basic
-title: 亢志军
-subtitle: 自留地
-description: 欢迎来到我的个人网站~
+title: hetao
+subtitle: 技术与阅读
+description: 欢迎来到我的小园地~
 # 头像里面的标题
-avatarTitle: RobotKang
+avatarTitle: hetao
 # 头像里面的描述
-avatarDesc: Python/机器学习/嵌入式
-url: "http://robotkang.cc"
+avatarDesc: Python/C#
+url: livingworld.github.io
 
 # Comment
 comment:
     provider: duoshuo
     duoshuo:
-     short_name: robotkang
+     short_name: hetao
 
 # Social
 social:
     weibo: 123456789
-    weixing: kang1390305137 
-    github: MengZheK
+    weixing:  
+    github: livingworld
     # twitter: 
-    mail: robotkang@foxmail.com
-    csdn: robotkang
+    mail: yuanhengzhenli@gmail.com
+    csdn: 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
@@ -35,13 +35,7 @@ baidu:
 #  host: auto  
 
 
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/MengZheK/kangblog.github.io
-#
-#
+
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
 
