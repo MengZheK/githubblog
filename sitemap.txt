@@ -1,7 +1,0 @@
----
-title: sitemap.txt
-permalink: sitemap.txt
----
-http://wiki.livingworld.github.io/index.html
-http://livingworld.github.io/index.html
-http://livingworld.github.io/index.html
