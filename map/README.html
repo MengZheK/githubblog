@@ -1,0 +1,118 @@
+
+
+<meta  charset="UTF-8">
+<script type="text/javascript"  src="jquery-1.9.1.min.js"></script>
+<script  type="text/javascript" src="jquery-jvectormap-1.2.2.min.js"></script>
+<script  type="text/javascript"  src="jquery-jvectormap-cn-merc-cn.js"></script>
+<link  href="jquery-jvectormap-1.2.2.css"  rel="stylesheet"  media="screen">
+<div id="map" style="background-color:#353535">
+
+</div>
+<script>
+var markdata = [
+    {latLng: [22.224979,113.585144], name: '珠海'},
+	{latLng: [22.547,114.085947], name: '深圳'},
+	{latLng: [23.046237,113.746262], name: '东莞'},
+	{latLng: [22.278931,114.169922], name: '香港'},
+    {latLng: [22.814162,108.363647], name: '南宁 - 2017'},
+    {latLng: [39.901309,116.422119], name: '北京'},
+    {latLng: [31.294981,120.585938], name: '苏州'},
+	{latLng: [31.489578,120.311279], name: '无锡'},
+    {latLng: [31.231592,121.475830], name: '上海'},
+    {latLng: [30.581179,114.307251], name: '武汉'},
+    {latLng: [32.059300,118.789673], name: '南京'},
+    {latLng: [29.544788,106.556397], name: '重庆'},
+    {latLng: [28.226970,112.933960], name: '长沙'},
+    {latLng: [30.409005,104.548130], name: '简阳'},
+    {latLng: [28.868729,105.441284], name: '泸州 - 2015'},
+    {latLng: [26.645004,106.633301], name: '贵阳'},
+    {latLng: [28.229390,112.942200], name: '长沙'},
+    {latLng: [32.449521,119.926758], name: '泰州'},
+    {latLng: [32.184911,119.432373], name: '镇江'},
+    {latLng: [37.870517,112.554932], name: '太原 - 2018 Summer'},
+    {latLng: [38.977026,113.590393], name: '五台山 - 2018 Summer'},
+    {latLng: [40.647304,109.841309], name: '包头 - 2018 Summer'},
+    {latLng: [40.988192,113.148193], name: '乌兰察布'},
+    {latLng: [40.830437,111.752929], name: '呼和浩特'},
+    {latLng: [29.350758,105.937557], name: '永川 - 2013~2017'},
+	{latLng: [41.277032,112.639732], name: '察右中旗 - Hometown'},
+	
+   
+];
+
+	var eventdata = [
+    {id: 'CN-32', event: '相册', url: '/photos/'}
+];
+	
+var regdata = {
+    //"CN-41": 1, // 河南
+    "CN-31": 0, // 上海
+	"CN-32": 0, // 江苏
+    //"CN-33": 1, // 浙江
+    "CN-44": 0, // 广东
+    //"CN-61": 1, // 陕西
+    //"CN-63": 1, // 青海
+	//"CN-62": 1, // 甘肃
+	//"CN-64": 1, // 宁夏
+	//"CN-34": 0, // 安徽
+    "CN-43": 0, // 湖南
+	"CN-45": 0, // 广西
+	"CN-42": 0, // 湖北
+	//"CN-46": 1, // 海南
+    //"CN-22": 1, // 吉林
+    //"CN-23": 1, // 黑龙江
+    //"CN-54": 1, // 西藏
+    //"CN-18": 1  // 台湾
+	"CN-11": 0, // 北京
+    //"CN-13": 1, // 河北
+    "CN-14": 0, // 山西
+   //"CN-35": 1, // 福建
+	"CN-51": 0, // 四川
+    //"CN-53": 1, // 云南
+	"CN-15": 0, // 内蒙古
+	"CN-50": 0, // 重庆
+	"CN-52": 0, // 贵州
+};
+
+$('#map').vectorMap({
+    map: 'cn_merc_en',
+    backgroundColor: 'transparent',
+    scaleColors: ['#C8EEFF', '#0071A4'],
+    normalizeFunction: 'polynomial',
+    hoverOpacity: 0.7,
+    hoverColor: false,
+    //--- 标记
+    markerStyle: {
+        initial: {
+            fill: '#fd8888',
+            stroke: '#fff'
+        }
+    },
+    markers: markdata,
+    //--- 改变地区颜色
+    series: {
+        regions: [{
+            values: regdata,
+            //scale: ['#FFDD00','#87CEEB'],
+            scale: ['#e5e5e5'],
+            normalizeFunction: 'polynomial'
+        }]
+    },
+    //--- 改变标签
+    onRegionTipShow: function(e, el, code){
+        $.each(eventdata, function(i, items){
+            if ((items.id == code) && (items.event != '')){
+                el.html(el.html() + ' - ' + items.event);
+            }
+        })
+    },
+    //--- 打开页面
+    onRegionClick: function(event, code){
+        $.each(eventdata, function(i, items){
+            if ((items.id == code) && (items.url != '')){
+                if (confirm('是否打开相册？')) window.open(items.url);
+            }
+        });
+    },
+});
+</script>
