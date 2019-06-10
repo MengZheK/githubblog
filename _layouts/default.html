@@ -93,6 +93,15 @@ jQuery(document).ready(function($) {
 });
 </script>
 
+<!-- http 跳转 https-->
+<script type=”text/javascript”>
+var url = window.location.href;
+if (url.indexOf(“https”) < 0) {
+url = url.replace(“http:”, “https:”);
+window.location.replace(url);
+}
+</script>
+
 </body>
 
 </html>
