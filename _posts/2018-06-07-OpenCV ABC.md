@@ -9,7 +9,7 @@ tag: 机器视觉
 
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
-<a target="_blank" href="http://robotkang.cc/2018/06/OpenCV-ABC/">原文地址：http://robotkang.cc/2018/06/OpenCV-ABC/ </a>
+<a target="_blank" href="https://robotkang.cc/2018/06/OpenCV-ABC/">原文地址：https://robotkang.cc/2018/06/OpenCV-ABC/ </a>
 </h6>
 ### Visual Studio 2010 安装
 
@@ -20,19 +20,19 @@ tag: 机器视觉
 ###  安装并配置OpenCV            
 
    
-** 1. 进入OpenCV官网，下载软件**     
+** 1. 进入OpenCV官网，下载软件**     
 
 - 官网: [https://opencv.org/releases.html](https://opencv.org/releases.html)       
 
 Python也要在本地下载安装好，我现在安装的是 `OpenCV 2.4.11` . 3.0以上的库都得配套VS更高的版本了貌似.   
 
-** 2.配置好环境变量**       
+** 2.配置好环境变量**       
 
 主要是参考书籍《OpenCV3 编程入门》来安装配置，遇到其他的问题可以看博客来解决掉。
 - 参考博客: [https://blog.csdn.net/taily_duan/article/details/51004222](https://blog.csdn.net/taily_duan/article/details/51004222)       
 
 
-** 3.都装好后就可以运行程序了**    
+** 3.都装好后就可以运行程序了**    
 
 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/hello%20OpenCV.png" width="630" height="380" alt="photos"/>
