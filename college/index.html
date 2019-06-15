@@ -1,0 +1,1004 @@
+﻿<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width initial-scale=1"/>
+	<!--<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">-->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+
+        <!--Leancloud 操作库:-->
+        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <!--Valine 的核心代码库:-->
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+
+	<title>亢志军-Robotkang-大学|四年</title>
+
+	<link rel="icon" type="image/png" href="/images/favicon.png" />
+	<link href="/images/favicon.png" rel="shortcut icon" type="image/png">
+
+	<link rel="stylesheet" href="css/styles2.css" type="text/css" media="screen" />
+
+
+
+	<link href="css/styles.css" type="text/css" media="all" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/history.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/history.js"></script>
+
+	<!--top-->
+	<link href="css/top.css" rel="stylesheet" type="text/css" />
+	<script src="js/jquery.js?v=1.83.min" type="text/javascript"></script>
+	<script src="js/top.js"></script>
+
+
+
+	<style>
+		p {
+			color: #fff;
+			font-size: 1.3em;
+			text-shadow: 0 0 10px #529DFF;
+		}
+	</style>
+	<style type="text/css">
+		#thenceThen {
+			font-size: 3.5em;
+			color: #fff;
+			text-shadow: 0 0 10px #529DFF;
+		}
+
+		#tt_bg {
+			font-size: 3.5em;
+			color: #fff;
+			text-shadow: 0 0 10px #529DFF;
+		}
+	</style>
+	<script type="text/javascript" language="javascript">
+		function thenceThen(timespan) {
+			var date1 = new Date(timespan);
+			var totalSecs = (new Date() - date1) / 1000;
+			var days = Math.floor(totalSecs / 3600 / 24);
+			var hours = Math.floor((totalSecs - days * 24 * 3600) / 3600);
+			var mins = Math.floor((totalSecs - days * 24 * 3600 - hours * 3600) / 60);
+			var secs = Math.floor((totalSecs - days * 24 * 3600 - hours * 3600 - mins * 60));
+			document.getElementById("thenceThen").innerText = days + "天" + hours + "小时" + mins + "分钟" + secs + "秒";
+		}
+		var clock;
+		window.onload = function () {
+			clock = self.setInterval("thenceThen('2017/06/24')", 500);
+		}
+	</script>
+
+	<!-- Meta information -->
+	<meta charset="utf-8">
+
+	<title>Estro - jQuery Ken Burns &amp; swipe effect slider plugin - by pixelentity - Example 1</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="index, follow" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+	<!-- favicon & idevice homepage thumb -->
+	<link rel="shortcut icon" href="favicon.jpg">
+
+	<!-- google font -->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:bold|Droid+Sans' rel='stylesheet' type='text/css'>
+
+
+	<!-- main stylesheets -->
+
+
+	<link rel="stylesheet" href="css/960.css" />
+
+	<link rel="stylesheet" href="css/skin.min.css" />
+
+
+	<!-- import jQuery -->
+	<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="js/preview.js"></script>
+
+	<script type="text/javascript" src="js/jquery.pixelentity.kenburnsSlider.min.js"></script>
+
+	<!--specify size of slider-->
+	<style>
+		.peKenBurns {
+			width: 920px;
+			height: 450px;
+		}
+	</style>
+
+	<script>
+		jQuery(function ($) {
+			$(".peKenBurns").peKenburnsSlider({ externalFont: true })
+		})
+		// for google fonts, handle captions sizing only after fonts are loaded
+		jQuery(window).load(function () {
+			$(".peKenBurns").each(function () {
+				$(this).data("peKenburnsSlider").fontsLoaded()
+			})
+		})
+	</script>
+	<!--百度推送-->
+	<script>
+			(function () {
+				var bp = document.createElement('script');
+				var curProtocol = window.location.protocol.split(':')[0];
+				if (curProtocol === 'https') {
+					bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+				}
+				else {
+					bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+				}
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(bp, s);
+			})();
+	</script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+	<div class="wrap about_page" id="wrap" style="overflow:auto;">
+		<div class="wrapper">
+			<div class="header">
+				<div class="head">
+
+					<div class="nav_box">
+						<ul class="nav_list" id="nav_list">
+							<li>
+								<a href="javascript:void(0)" onclick="play()" id="playbtn" class="btn_sound" title="单击关闭音乐"></a>
+							</li>
+							<li><a href="http://robotkang.cc" target="_blank">主页</a></li>
+							<li><a href="http://robotkang.cc/liuyan/" target="_blank">留言</a></li>
+						</ul>
+						<span class="ic_line" id="h_line"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="events_sec" id="events_sec">
+				<div class="content">
+					<!--top-->
+					<div style="display: none;" id="rocket-to-top">
+						<div style="opacity:0;display: block;" class="level-2"></div>
+						<div class="level-3"></div>
+					</div>
+					<!--top end-->
+
+					<div align="center">
+						<p>
+							<h1><strong> 我们已从文理毕业了: </strong></h1>
+						</p>
+						<div id="thenceThen"></div>
+					</div>
+
+
+
+					<div class="events_list">
+						<div id="history">
+							<div class="title">
+								<p>班级成长史</p>
+								<div id="circle">
+									<div class="cmsk"></div>
+									<div class="circlecontent">
+										<div thisyear="2017" class="timeblock">
+											<span class="numf"></span>
+											<span class="nums"></span>
+											<span class="numt"></span>
+											<span class="numfo"></span>
+											<div class="clear"></div>
+										</div>
+										<div class="timeyear">YEAR</div>
+									</div>
+									<a href="http://robotkang.cc" class="clock"></a>
+								</div>
+							</div>
+
+							<div style="height:450px;" id="content">
+								<ul style="height:500px;" class="list">
+									<li style="margin-top:-110px;">
+										<div class="liwrap">
+											<div class="lileft">
+											</div>
+
+											<li>
+												<div class="liwrap">
+													<div class="lileft">
+														<div class="date">
+															<span class="year">2013</span>
+															<span class="md">09.05</span>
+														</div>
+													</div>
+
+													<div class="point"><b></b></div>
+
+													<div class="liright">
+														<div class="histt"><a href="#">相聚文理</a></div>
+														<div class="hisct">怀着对青春美好的憧憬，怀着对未来无限的展望，我们从五湖四海聚到了文理。从那一刻起，我们30个人的名字，就化为了同一个符号——机电2班</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="liwrap">
+													<div class="lileft">
+														<div class="date">
+															<span class="year">2014</span>
+															<span class="md">09.12</span>
+														</div>
+													</div>
+
+													<div class="point"><b></b></div>
+
+													<div class="liright">
+														<div class="histt"><a href="#">初入大二</a></div>
+														<div class="hisct">看着过去大二的我们，总会让我想起现在的自己，当时觉得未来离自己很遥远，尽管手里没有任何有分量的砝码，但却毫无理由的足够勇敢。这勇敢，超越诸多的物质，所以很多时候，我们始终相信未来</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="liwrap">
+
+													<div class="lileft">
+														<div class="date">
+															<span class="year">2015</span>
+															<span class="md">09.07</span>
+														</div>
+													</div>
+
+													<div class="point"><b></b></div>
+
+													<div class="liright">
+														<div class="histt"><a href="#">步入大三</a></div>
+														<div class="hisct">大三的我们，在自己的小世界里，畅想过，努力过，彷徨过，偶尔也会放慢脚步，问问自己：“ 现在的我，还记得当时的理想吗？”</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="liwrap">
+													<div class="lileft">
+														<div class="date">
+															<span class="year">2017</span>
+															<span class="md">06.24</span>
+														</div>
+													</div>
+
+													<div class="point"><b></b></div>
+
+													<div class="liright">
+														<div class="histt"><a href="#">我们毕业了...</a></div>
+														<div class="hisct">这一年，我们毕业了，没有太多的豪言壮语，没有太多的信誓旦旦~ 有人说，再多各自牛B的时光，也比不上一起傻B的岁月。你，同意么？</div>
+													</div>
+												</div>
+											</li>
+
+
+										</div>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+
+			<div class="wage_sec" id="wage_sec">
+				<div class="content">
+
+					<h3 class="tt_bg">机械电子工程二班</h3>
+					<p>&#12288;&#12288;重庆-永川-重庆文理学院[CUAS]&#12288;&#12288;机电工程学院/机器人工程学院&#12288;&#12288;成员：30人&#12288;&#12288;辅导员：练晓娟（185-8071-9519） </p><br/>
+					<p>
+						&#12288;&#12288;班级荣誉：重庆文理学院先进班集体
+					</p><br/>
+					<p>&#12288;&#12288;因为缘分，我们相聚；因为缘分，我们相知。不管在多少年后，都要记得，有那样一群人，一起疯，一起闹，那样的年纪，那样的欢笑。请永远记得，我的青春岁月里曾有你同行。愿我们历经风帆，归来仍是如初少年！</p>
+					<br/><br/><br/>
+				</div>
+			</div>
+
+
+			<audio id="audios" controls="true" autoplay="autoplay" class="audio" style="display:none;"></audio>
+
+			<script>
+				var url = ["", ""];
+				var num = GetRandomNum(0, url.length - 1);
+				document.getElementById("audios").src = "http://omjh2j5h3.bkt.clouddn.com/music/%E6%AF%95%E4%B8%9A%E5%AD%A3%20-%20%E5%AE%89%E6%B2%AB%E8%BE%B0.mp3" + url[num];
+				function GetRandomNum(Min, Max) {
+					var Range = Max - Min;
+					var Rand = Math.random();
+					return (Min + Math.round(Rand * Range));
+				}
+
+				function play() {
+					var div = document.getElementById('playbtn');
+					var obj = document.getElementById("audios");
+					if (obj.paused) {
+						obj.play();
+						div.setAttribute("class", "btn_sound");
+					} else {
+						obj.pause();
+						div.setAttribute("class", "btn_sound btn_no_sound");
+					}
+
+				}
+			</script>
+			<script src="js/canvas-nest.min.js"></script>
+
+
+			<div class="wage_sec" id="wage_sec">
+
+				<div id="annotation">
+					<div id="wrapper" class="container_16">
+
+
+						<!--start peKenBurns slider-->
+						<div class="peKenBurns peNoJs" data-autopause="image" data-thumb="enabled" data-mode="kb" data-controls="always" data-shadow="enabled"
+						 data-logo="enabled">
+
+							<div class="peKb_active" data-delay="5" data-thumb="img/thumbs/kb_01.jpg">
+								<img src="img/kb_01.jpg" alt="Banner Image 1" />
+								<h1>班级户外活动集体照—观音山公园</h1>
+							</div>
+
+							<!-- lazy loading active -->
+							<div data-delay="5" data-thumb="img/thumbs/kb_00.jpg">
+								<img src="img/blank.png" data-src="img/kb_00.jpg" alt="Banner Image 1" /></a>
+								<h1>班级户外活动照—观音山公园</h1>
+							</div>
+
+							<!-- lazy loading active -->
+							<div data-delay="5" data-thumb="img/thumbs/kb_02.jpg">
+								<img src="img/blank.png" data-src="img/kb_02.jpg" alt="Banner Image 1" />
+								<h1>2017班级毕业照-重庆文理学院</h1>
+							</div>
+
+							<!-- lazy loading active -->
+							<div data-delay="5" data-thumb="img/thumbs/kb_03.jpg">
+								<img src="img/blank.png" data-src="img/kb_03.jpg" alt="Banner Image 1" />
+								<h1>2017班级毕业照-重庆文理学院</h1>
+							</div>
+
+							<!-- lazy loading active -->
+							<div data-delay="5" data-thumb="img/thumbs/kb_04.jpg">
+								<img src="img/blank.png" data-src="img/kb_04.jpg" alt="Banner Image 1" /></a>
+								<h1>2017班级毕业照-重庆文理学院</h1>
+							</div>
+
+							<!-- lazy loading active -->
+							<div data-delay="5" data-thumb="img/thumbs/kb_05.jpg">
+								<img src="img/blank.png" data-src="img/kb_05.jpg" alt="Banner Image 1" />
+								<h1>某某节课-重庆文理学院 </h1>
+							</div>
+
+							<!-- lazy loading active -->
+							<div data-delay="5" data-thumb="img/thumbs/kb_06.jpg">
+								<img src="img/blank.png" data-src="img/kb_06.jpg" alt="Banner Image 1" />
+								<h1>2017班级毕业照-重庆文理学院</h1>
+							</div>
+
+						</div>
+						<!--end peKenBurns slider -->
+
+
+					</div>
+
+					<!--end menu wrapper-->
+
+				</div>
+				<!--end wrapper-->
+			</div>
+			<!--end annotation-->
+
+
+
+			<div class="wage_sec" id="wage_sec">
+				<div class="content">
+					<br/><br/>
+
+
+					<h1 id="tt_bg" align="center">班级成员</h1>
+
+					<br/><br/><br/>
+				</div>
+			</div>
+
+
+			<div class="wage_sec" id="wage_sec">
+				<div class="content">
+					<div class="case-content">
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/1.jpg" alt="学习LOS" height=100 width=100></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>邓思敏</h3>
+											<p><strong>201318034034</strong>
+												<p>重庆-合川</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/2.jpg" alt="学习" height=200 width=220></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>房芳</h3>
+											<p><strong>201318034035</strong>
+												<p>陕西-咸阳</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/3.png" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>谢克新</h3>
+											<p><strong>201318034037</strong>
+												<p>重庆-北碚</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/4.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>隆江</h3>
+											<p><strong>201318034038</strong>
+												<p>重庆-丰都</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/5.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>刘准</h3>
+											<p><strong>201318034039</strong>
+												<p>湖南-张家界</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/6.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>赵培超</h3>
+											<p><strong>201318034040</strong>
+												<p>河北-邯郸</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/7.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>谌宏凯</h3>
+											<p><strong>2013180340342</strong>
+												<p>贵州-咸阳</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/8.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>戴开远</h3>
+											<p><strong>201318034043</strong>
+												<p>重庆-璧山</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/9.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>张硕果</h3>
+											<p><strong>201318034044</strong>
+												<p>重庆-沙坪坝</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/10.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>古靖城</h3>
+											<p><strong>201318034045</strong>
+												<p>重庆-忠县</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/11.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>韦钰柱</h3>
+											<p><strong>201318034046</strong>
+												<p>陕西-宝鸡</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/12.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>闫睿明</h3>
+											<p><strong>201318034047</strong>
+												<p>新疆-乌鲁木齐</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/13.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>周胜付</h3>
+											<p><strong>201318034048</strong>
+												<p>重庆-巫溪</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/14.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>金琦</h3>
+											<p><strong>201318034049</strong>
+												<p>江西-丰城</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/15.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>彭江云</h3>
+											<p><strong>201318034050</strong>
+												<p>重庆-云阳</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/16.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>亢志军</h3>
+											<p><strong>201318034051</strong>
+												<p>内蒙-乌兰察布</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/17.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>吴旭盛</h3>
+											<p><strong>201318034052</strong>
+												<p>山西-运城</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/18.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>王勇涛</h3>
+											<p><strong>201318034053</strong>
+												<p>云南-曲靖</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/19.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>王东琼</h3>
+											<p><strong>201318034054</strong>
+												<p>重庆-巫溪</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/20.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>谢泽</h3>
+											<p><strong>201318034055</strong>
+												<p>重庆-南川</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/21.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>张自伟</h3>
+											<p><strong>201318034056</strong>
+												<p>福建-漳州</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/22.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>冉杰</h3>
+											<p><strong>201318034057</strong>
+												<p>重庆-石柱</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/23.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>易柯</h3>
+											<p><strong>201318034058</strong>
+												<p>广西-柳州</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/24.jpg" alt="学习" height=200 width=160></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>伍邱平</h3>
+											<p><strong>201318034060</strong>
+												<p>重庆-开县</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/25.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>王继伟</h3>
+											<p><strong>201318034061</strong>
+												<p>重庆-垫江</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/26.jpg" alt="学习" height=200 width=300></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>郭洪志</h3>
+											<p><strong>201318034062</strong>
+												<p>重庆-渝中</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/27.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>李宗轩</h3>
+											<p><strong>201318034063</strong>
+												<p>四川-广安</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/28.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>胡雄方</h3>
+											<p><strong>201318034064</strong>
+												<p>四川-乐山</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+
+
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/29.jpg" alt="学习" height=200 width=500></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>姜昌林</h3>
+											<p><strong>201318034065</strong>
+												<p>重庆-璧山</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="case-item">
+							<div class="ih-item circle effect1">
+								<a href="http://robotkang.cc/liuyan/">
+									<div class="spinner"></div>
+									<div class="img"><img src="images/30.jpg" alt="学习" height=200 width=200></div>
+									<div class="info">
+										<div class="info-back">
+											<h3>陈威</h3>
+											<p><strong>201318034066</strong>
+												<p>重庆-奉节</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div style="text-align:center;margin:0px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="wage_sec" id="wage_sec">
+				<div class="content">
+					<br/><br/>
+					<h1 id="tt_bg" align="center">毕业留念视频</h1><br/>
+
+					<div align="center">&nbsp;
+						<embed src='http://player.youku.com/player.php/sid/XMjg5Njc1OTczNg==/v.swf' allowFullScreen='true' quality='high' width='1000' height='500' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+					</div>
+
+					<br/><br/><br/>
+				</div>
+			</div>
+
+			<!-- 评论 -->
+
+			<div class="wage_sec" style="color:#000000">
+
+				<div class="content" >
+
+					<h1 id="tt_bg" align="center">班级留言板</h1>
+
+					<br/>
+
+					
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valine - A simple comment system based on Leancloud.</title>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src="/Valine-1.1.8/dist/Valine.min.js"></script>
+</head>
+<body>
+    <div class="comment"></div>
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment', // 
+            app_id: '5z3QHKTEMlSqxReRnfeFG1cC-gzGzoHsz', // 这里填写上面得到的APP ID
+            app_key: '59CrEdy9yw1xmqcDQ4JcJbWy', // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!' ,// [v1.0.7 new]留言框占位提示文字
+        avatar:'wavatar',
+        path:window.location.pathname,
+        guest_info:['nick','mail','link'] ,
+        pageSize:10,
+        });
+    </script>
+</body>
+</html>				
+
+					<br/>
+
+				</div>
+
+			</div>
+
+			<!-- 评论 -->
+
+			<div class="wage_sec" id="wage_sec">
+				<div class="content"><br/><br/>
+					<div align="center">
+						<HR width="80%" color=#987cb9 SIZE=3 />
+					</div>
+					<!-- color颜色，size大小 -->
+					<br/>
+
+					<div align="center">
+						<h2>Copyright &copy; 2017-2018.Robotkang. All rights reserved.</h2>
+					</div>
+					<br/><br/><br/>
+				</div>
+			</div>
+
+
+			<div class="wage_sec" id="wage_sec">
+				<div class="content">
+					<script>
+						(function (i, s, o, g, r, a, m) { i["DaoVoiceObject"] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; a.charset = "utf-8"; m.parentNode.insertBefore(a, m) })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/c9a69f6a.js", "daovoice")
+
+						daovoice('init', {
+							app_id: "c9a69f6a"
+						});
+						daovoice('update');
+					</script>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

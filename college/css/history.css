@@ -1,0 +1,98 @@
+﻿/*时间轴样式。2017-04。03*/
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{_background-image:url(about:blank);/*用浏览器空白页面作为背景*/_background-attachment:fixed; /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/ } 
+body{color:#ffffff;font-size:0.75em;font-family: "arial","微软雅黑";background:#f0f1f1;}
+.clear{clear:both;display:block;height:0;overflow:hidden;}
+
+/* history */
+#history{width:1180px;height:500px;position:relative;margin:50px auto 0 auto;}
+.title{height:95px;line-height:95px;text-indent:280px;}
+.title h2{color:#ffffff;font-size:1.125em;font-weight:500;}
+#circle{
+	width:83px;height:83px;position:absolute;top:0;left:390px;border:6px solid rgba(0,0,0,0.15);border-radius:95px;text-indent:0;text-align:center;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+#circle .cmsk{height:83px;position:absolute;width:83px;top:0;left:0;}
+#circle:hover{
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	border-color:rgba(0,0,0,0);
+}
+.clock{display:block;}
+#circle:hover {border-color:rgba(255,255,255,0.6);background-color:#63d604;}
+#circle:hover .clock{display:block;}
+#circle:hover .circlecontent{display:none;}
+#circle span{font-size:1.125em;color:#ffffff;}
+#circle .clock{
+	background:url(../images/clock.png) no-repeat 0 0;width:83px;height:83px;position:absolute;top:0;left:0;display:none;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+	transition:all 0.5s linear;
+	border-radius:0;
+}
+#circle:hover .clock{border-radius:83px;}
+.timeyear{color:#ffffff;font-size:18px;line-height:20px;}
+.timeblock{height:28px;margin-top:22px;margin-left:5px;}
+.timeblock span{display:block;height:24px;width:18px;background:url(../images/date.png) no-repeat 0 0;float:left;}
+.timeblock .numf{background-position:0px -48px;}
+.timeblock .nums{background-position:0px 0px;}
+.timeblock .numt{background-position:0px -24px;}
+.timeblock .numfo{background-position:0px -168px;}
+#content{height:455px;width:1180px;overflow:hidden;background:url(../images/vertical.png) no-repeat 434px 2px;padding-top:-10px;}
+.list{overflow:hidden;position:relative;}
+.list li{height:110px;vertical-align:bottom;overflow:hidden;position:relative;}
+.liwrap{height:55px;margin-top:28px;}
+.lileft{position:absolute;top:0;left:0px;height:55px;width:400px;line-height:55px;text-align:right;}
+.liright{position:absolute;top:0;right:0px;height:55px;width:700px;}
+.histt{height:35px;line-height:35px;}
+.hisct{font-size:14px;color:#ffffff;}
+.md{font-size:18px;color:#ffffff;}
+.year{font-size:0.75em;color:#00ff00;margin-right:10px;}
+.point{width:55px;height:55px;position:absolute;top:0;left:409px;background:url(../images/point.png) no-repeat 0px 18px;overflow:hidden;}
+.point b{
+	height:16px;width:16px;background:#fff;display:block;margin:17px 0 0 19px;border-radius:18px;border:2px solid #6bc30d;
+	-webkit-transition:all 0.1s linear;
+	-moz-transition:all 0.1s linear;
+	-o-transition:all 0.1s linear;
+	transition:all 0.1s linear;
+	position:absolute;
+	top:0;left:0;
+}
+.thiscur .point b{border:7px solid rgba(107,195,13,0.6);margin:12px 0px 0px 14px;border-radius:52px;}
+.thiscur .histt a{color:#00ff00;}
+.histt a{
+	font-size:1.5em;color:#6bc30d;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-o-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+#arrow{position:fixed;top:50%;right:30px;}
+*html #arrow{position:absolute;top:expression(eval(document.documentElement.scrollTop));margin-top:350px;}
+
+#arrow ul li{
+	display:block;height:20px;width:20px;background:url(../images/icons.png) no-repeat 0 0;cursor:pointer;
+	-webkit-transition:all 0.2s ease-out;
+	-moz-transition:all 0.2s ease-out;
+	-o-transition:all 0.2s ease-out;
+	transition:all 0.2s ease-out;
+}
+#arrow ul li:active{background-color:#000;}
+#arrow ul .arrow_active{
+	background-color:#000;
+	-webkit-transition:all 0.1s ease-in;
+	-moz-transition:all 0.1s ease-in;
+	-o-transition:all 0.1s ease-in;
+	transition:all 0.1s ease-in;
+}
+#arrow ul .arrowup{background-position:0px -26px;margin-bottom:10px;}
+#arrow ul .arrowdown{background-position:0px 0px;}

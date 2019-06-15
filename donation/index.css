@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+*{ margin: 0; padding: 0; font-family: microsoft yahei, '微软雅黑'; -webkit-tap-highlight-color:rgba(0,0,0,0);  }
+li{ list-style: none }
+img{ border: none}
+a{ text-decoration: none;}
+.text-center { text-align: center;}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.web-title {
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Microsoft JhengHei", "Microsoft Yahei", Arial;
+    font-weight: normal;
+    color: #908f8f;
+}
+.web-title:first-letter {
+    color: #e63838;
+    margin-right: 10px;
+}
+
+
+
+/* 捐赠列表 */
+.donate-list {
+    margin: 20px 0;
+}
+
+/* 捐赠表头 */
+.donate-list dl, #donate-scroll { text-align: center; overflow: hidden;}
+.donate-list dl dd { float: left; color: #607D8B; height: 40px; line-height: 40px;}
+
+.donate-list, .donate-list dl dd { border-bottom: 1px solid #9e9e9e;}
+
+
+/* 列表区域 */
+#donate-scroll, .donate-list ul { height: 545px;}
+.donate-list li { height:38px; line-height: 38px; font-size: 12px; border-bottom: 1px dashed #aaa;}
+.donate-list li span { display: block; float:left; color:#7C7C7C; word-break: keep-all; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.donate-list li span:nth-child(1), .donate-list dl dd:nth-child(1) { width: 20%;}
+.donate-list li span:nth-child(2), .donate-list dl dd:nth-child(2) { width: 15%;}
+.donate-list li span:nth-child(3), .donate-list dl dd:nth-child(3) { width: 50%;}
+.donate-list li span:nth-child(4), .donate-list dl dd:nth-child(4) { width: 15%;}
+
+.donate-note {
+    color: #b9b8b8;
+    font-size: 14px;
+    line-height: 23px;
+}
+.donate-note>p {
+    margin-bottom: 5px;
+}
+.donate-note>p>a {
+    color: #b3b1b1;
+}
+.donate-note>p>a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    color: #666;
+    font-family: "kai", "楷体";
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}

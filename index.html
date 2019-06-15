@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+
+<div class="main-post-list hidden">
+
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <h1 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h1>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="post-list__meta">        
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
+          <img src="/images/calendar.png" width="20px" /> 
+          {{ post.date | date: "%F"}}</time> 
+        <div class = "tag-img-icon">
+          <img src="/images/tag-icon.svg" width="20px" /> 
+        </div>
+        <a href="/tags">
+          <div class = "post-list-icon-mate">
+            <span class="post-list__meta--tags-right">{{ post.tags }}</span>
+          </div>
+          <div class = "post-list-small-mate">
+          <a class="btn-border-small" href={{ post.url }}>阅读全文 » </a>
+          </div>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    {% endfor %}
+  </ol>
+
+  {% include pagination.html %}           
+
+
+</div>
+
+<!--<script src="js/canvas-nest.min.js"></script>-->
+
+
+ 
+<link href="css/top.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js?v=1.83.min" type="text/javascript"></script>
+<script src="js/top.js"></script>
+<div style="display: none;" id="rocket-to-top">
+<div style="opacity:0;display: block;" class="level-2"></div>
+<div class="level-3"></div>
+</div>
+
+
+
+
+
+<!--baidu-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<body style="height:1000px;">
+
+
+
+
+
+
+<!--小人只在首页显示 start*
+<div id="spig" class="spig">
+    <div id="message">正在加载中……</div>
+    <div id="mumu" class="mumu"></div>
+</div>-->
+<!--小人end*
+
+</body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery.xiaoren.js"></script>
+<script type="text/javascript" src="js/spig.js"></script>
+<link rel="stylesheet" href="css/xiaoren.css" type="text/css"/>
+<script type="text/javascript">
+var isindex = true;
+var visitor = true;
+</script>-->
+
+
