@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "复盘丨Monthly summary-6月"
-date: 2019-06-30 
+title: "复盘丨Monthly summary-7月"
+date: 2019-07-31 
 description: "旅行"
-tag: 生活&工作
+tag: 生活 工作
 ---   
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。

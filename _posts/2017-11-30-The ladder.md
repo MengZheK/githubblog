@@ -3,7 +3,7 @@ layout: post
 title: 如何高效且优雅的翻墙
 date: 2017-11-30
 comments: true 
-tags: 博客  
+tags: 生活  
 ---
 
 

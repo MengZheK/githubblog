@@ -3,7 +3,7 @@ layout: post
 title: "OpenCV 从入门到..."
 date: 2018-06-07 
 description: "VS ,Python，Visual Studio"
-tag: 机器视觉
+tag: 技术
 ---   
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "Arduino与Kinect打造体感智能车"
 date: 2017-04-10
 description: "Arduino，Kinect，体感智能车"
-tag:  Arduino
+tag:  技术
 ---   
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。

@@ -3,7 +3,7 @@ layout: post
 title: "Lissajous 曲线的动画演示"
 date: 2018-09-21 
 description: "coding ,Lissajous"
-tag: 博客
+tag: Others
 ---   
 
 

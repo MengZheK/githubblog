@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll+Github个人博客构建之路 
 date: 2017-03-03 
-tag: 网站建设
+tag: 技术
 ---
 
 

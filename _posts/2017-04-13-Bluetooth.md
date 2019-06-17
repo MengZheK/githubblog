@@ -3,7 +3,7 @@ layout: post
 title: "蓝牙模块相关知识汇总"
 date: 2017-04-13 
 description: "蓝牙，HC-05"
-tag: 博客 
+tag: 技术 
 ---   
 
 

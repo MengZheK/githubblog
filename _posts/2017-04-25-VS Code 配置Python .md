@@ -3,7 +3,7 @@ layout: post
 title: "VS Code 配置Python "
 date: 2017-04-25 
 description: "VS Code,Python，Visual Studio"
-tag: Python
+tag: 工作
 ---   
 
 
