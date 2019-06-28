@@ -32,8 +32,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 <p>
 <h3> PastTime</h3>   
 <img src="https://v2.jinrishici.com/one.svg?font-size=20&spacing=2&color=DarkViolet"> 
-<p>
-<p>
+<br />
 
 
 也许你听说过，「业余时间决定人生」；也许你还听说过，「听过很多道理，依然过不好这一生」。书籍、代码、博客、运动、电影、美剧、游戏，这就是我的业余生活。            
