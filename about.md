@@ -31,8 +31,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 
 <p>
 <h3> PastTime</h3>   
-
-<img src="https://api.gushi.ci/all.svg?font-size=18&spacing=4">
+<img src="https://api.gushi.ci/all.svg?font-size=20&spacing=3">
 <p>
 也许你听说过，「业余时间决定人生」；也许你还听说过，「听过很多道理，依然过不好这一生」。书籍、代码、博客、运动、电影、美剧、游戏，这就是我的业余生活。            
 
@@ -46,7 +45,15 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 趁我在还能看得进书写得动代码的年纪，努力一回，看看这平庸的资质究竟能发挥几分。
 
 <p>
-
+$.ajax({
+    type: "POST",
+    url: 'https://api.hibai.cn/api/index/index',
+    dataType: 'json',
+    data: {"TransCode":"030111","OpenId":"123456789"},
+    success: function(result){
+        console.log(result);
+    }
+});
 <h3> Ps </h3>   
 <p>
 如果你想搭建一个跟我一样的博客，可以看
