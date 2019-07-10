@@ -12,10 +12,10 @@ tag: 工作
 </h6>
 为了保障我能够随时上 Google 查资料，把我以前和现在以及将来我可能要用的付费工具（服务商）汇总一下，以防不测。       
 
-1、<a href="http://p.comworld.club/?u=44" target="_blank"> comworld</a>       
+1、<a href="https://p.comworld.club/?aff=Q" target="_blank"> comworld</a>       
 
 
-2、<a href="http://p.comworld.club/?u=44" target="_blank"> 弧特云 </a> ~          
+2、<a href="https://p.comworld.club/?aff=Q" target="_blank"> 弧特云 </a> ~          
 
 3、<a href="https://agentneo.pro/?rc=rxzyuip5" target="_blank">AgentNEO</a>        
 
