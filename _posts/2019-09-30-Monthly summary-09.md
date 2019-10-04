@@ -10,7 +10,7 @@ tag: 总结
 <a target="_blank" href="https://robotkang.cc/2019/09/Monthly-summary-09/">原文地址：https://robotkang.cc/2019/09/Monthly-summary-09/</a>
 </h6>
 
-九月，秋，天微凉。       
+九月，秋，天微凉。         
 
 随着离国庆大典越来越近，相关部门也变得日益紧张起来，感受最明显的一点就是翻墙不那么方便了，幸好我还有备份的梯子可用<a target="_blank" href="http://t.cn/AiOeQ4zO">【梯子链接】</a>。在有生之年还不知道能不能盼到不用梯子就可以畅游互联网的那天。    
 
