@@ -9,28 +9,24 @@ tag:  技术
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
 <a target="_blank" href="https://robotkang.cc/2017/04/Arduino&Kinect/">原文地址：https://robotkang.cc/2017/04/Arduino&Kinect/</a>
 </h6>
-　　这个小项目是之前在学校实验室做的，已成功运行，现在把相关的资料记录下来，便于日后察阅。     
+这个小项目是之前在学校实验室做的，已成功运行，现在把相关的资料记录下来，便于日后察阅。         
 
-　　之前大部分步骤是按照奥松的这篇教程来做的，原文地址：<a href="http://www.alsrobot.cn/article-114.html" target="_blank">奥松</a>，有什么问题也可以在文章末尾给我留言。  
+之前大部分步骤是按照奥松的这篇教程来做的，原文地址：<a href="http://www.alsrobot.cn/article-114.html" target="_blank">奥松</a>，有什么问题也可以在文章末尾给我留言。        
  
 
-## 正文：
-  体感智能车的原理非常的简单，就是利用Kinect采集人体的姿体信息，然后通过蓝牙串口向Arduino发送字符命令。Arduino通过相应的字符命令控制双H桥电机驱动模块实现小车的前进后退等动作。项目主要用到小车底盘套件、蓝牙、控制器等...
-<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E6%99%BA%E8%83%BD%E8%BD%A6/1.png" width="380" height="230" alt="photos"/>
+## 正文：    
+体感智能车的原理非常的简单，就是利用Kinect采集人体的姿体信息，然后通过蓝牙串口向Arduino发送字符命令。Arduino通过相应的字符命令控制双H桥电机驱动模块实现小车的前进后退等动作。项目主要用到小车底盘套件、蓝牙、控制器等...     
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E6%99%BA%E8%83%BD%E8%BD%A6/1.png" width="380" height="230" alt="photos"/>  
 
-### Arduino实现串口控制小车
+### Arduino实现串口控制小车     
 
-
-
- 下面按照制作过程为大家介绍如何来弄。
-
+下面按照制作过程为大家介绍如何来弄。    
 
 一、安装4WD小车，小车是纯金属的外壳比较抗撞不容易损坏，亚克力的也行，视自己情况而定。
-[安装视频](http://v.youku.com/v_show/id_XNTU2NjY3MDI0.html)
-<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E6%99%BA%E8%83%BD%E8%BD%A6/3.png" width="380" height="230" alt="photos"/>
+[安装视频](http://v.youku.com/v_show/id_XNTU2NjY3MDI0.html)              
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E6%99%BA%E8%83%BD%E8%BD%A6/3.png" width="380" height="230" alt="photos"/> 
 
-
-      安装好小车地盘后再小车地盘内部安装双H桥驱动和电池将控制引脚用3P杜邦线接到Arduino上，连接好电源向Arduino内烧录程序（编译软件为Arduino IDE）。代码如下： 
+安装好小车地盘后再小车地盘内部安装双H桥驱动和电池将控制引脚用3P杜邦线接到Arduino上，连接好电源向Arduino内烧录程序（编译软件为Arduino IDE）。代码如下：                 
 
 	    #define  pinI1  9      //定义I1接口
         #define  pinI2  8      //定义I2接口
@@ -41,8 +37,8 @@ tag:  技术
         #define SPEED    150 
         char opt = ' ' ; 
 	void setup()
-	{  
- 	 Serial.begin(115200);
+	{ 
+	  Serial.begin(115200);
 	  pinMode(pinI1,OUTPUT);       //初始化电机控制引脚为输出
 	  pinMode(pinI2,OUTPUT);
 	  pinMode(speedpin,OUTPUT);
@@ -116,7 +112,7 @@ tag:  技术
 	 }
 	  //左转函数time为直行的时间  单位ms
 	 void zuozhuan(int time)
- 	{
+	 {
 	     analogWrite(speedpin,SPEED);//输入模拟值进行设定速度
 	     analogWrite(speedpin1,SPEED);
      
@@ -127,7 +123,7 @@ tag:  技术
 	     digitalWrite(pinI2,LOW);     
 	     delay(time);
 	 }
- 	  //后退函数time为后退的时间  单位ms
+	 //后退函数time为后退的时间  单位ms
 	 void Retreat(int time)
 	 {
 	     analogWrite(speedpin,SPEED);//输入模拟值进行设定速度
@@ -155,31 +151,23 @@ tag:  技术
 	 }
 
 
+程序下载好后安装蓝牙模块，通过串口助手进行测试，确定字符命令可以控制小车。      
 
 
-        程序下载好后安装蓝牙模块，通过串口助手进行测试，确定字符命令可以控制小车。
+### Kinect与Arduino进行串口通信       
 
+下面进行Kinect的代码编写，我采用的是processing软件（最好使用低版本的），使用前需要安装Kinect驱动`OpenNI_NITE_Installer-win32-0.27`和kinect的链接库`SimpleOpenNI-0.27`<a href="https://code.google.com/p/simple-openni/downloads/list" target="_blank">下载地址</a>。         
 
-### Kinect与Arduino进行串口通信
+下载SimpleOpenNI这个库需要翻墙下载，具体方法可看我这篇文章：
+<a href="https://robotkang.cc/2017/11/The-ladder/" target="blank">如何高效且优雅的翻墙</a>             
 
-
-
-        下面进行Kinect的代码编写，我采用的是processing软件（最好使用低版本的），使用前需要安装Kinect驱动`OpenNI_NITE_Installer-win32-0.27`和kinect的链接库`SimpleOpenNI-0.27`<a href="https://code.google.com/p/simple-openni/downloads/list" target="_blank">下载地址</a>。
-
-> 下载SimpleOpenNI这个库需要翻墙下载，具体方法可看我这篇文章：
-<a href="https://robotkang.cc/2017/11/The-ladder/" target="_blank">如何高效且优雅的翻墙</a>      
-<br>
+ 解压驱动包，首先安装`OpenNI`，然后安装`SensorKinect`，最后Sensor全部安装完成以后，重启电脑。将你的Kinect连接上电脑插好电源，可以通过查看控制面板中的设备管理器，检查你的电脑是否已 经识别`Kinect`。      
  
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E6%99%BA%E8%83%BD%E8%BD%A6/2.png" width="300" height="180" alt="photos"/>
 
+驱动安装完成后下载`processing`软件双击打开，打开后会在`我的文档`中出现processing文件夹讲下载的库文件`SimpleOpenNI-0.27`解压后复制到processing下的libraries下如果没有新建一个即可。重新打开processing就可以进行Kenect的程序编写了。         
 
-         解压驱动包，首先安装`OpenNI`，然后安装`SensorKinect`，最后Sensor全部安装完成以后，重启电脑。将你的Kinect连接上电脑插好电源，可以通过查看控制面板中的设备管理器，检查你的电脑是否已 经识别`Kinect`。
- <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E6%99%BA%E8%83%BD%E8%BD%A6/2.png" width="300" height="180" alt="photos"/>
-
-
-          驱动安装完成后下载`processing`软件双击打开，打开后会在`我的文档`中出现processing文件夹讲下载的库文件`SimpleOpenNI-0.27`解压后复制到processing下的libraries下如果没有新建一个即可。重新打开processing就可以进行Kenect的程序编写了。
-
-
-          控制小车的代码如下：
+控制小车的代码如下：      
 
 
 		import SimpleOpenNI.*;
@@ -396,9 +384,7 @@ tag:  技术
 		}
 
 
-
-
-        程序编写完成后连接蓝牙串口（注意没有串口时程序会报错）这样一个体感智能车就制作完成了。
+程序编写完成后连接蓝牙串口（注意没有串口时程序会报错）这样一个体感智能车就制作完成了。    
 
 
 
