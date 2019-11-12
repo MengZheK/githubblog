@@ -15,10 +15,17 @@ title: 资源「USEFUL LINKS」
 <a href="/college/" target="_blank" style="text-decoration:none">大学|四年</a>- 记青春年华. &emsp;
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E4%BC%98%E7%95%8C%E7%BD%91.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="/time machine/" style="color:#DC143C" target="_blank" style="text-decoration:none">微语</a>- Time Machine &emsp;
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
+<a href="/book/" style="color:#DC143C" target="_blank" style="text-decoration:none">个人书单</a>-  FLAG 
+
 &emsp;
 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E6%B1%82%E5%AD%97%E4%BD%93.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="http://wiki.robotkang.cc" target="_blank" style="text-decoration:none" > Robotkang's Wiki </a>个人维基百科库，还未整理！    
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
+<a href="/app/" target="_blank" style="text-decoration:none">APP下载1</a>
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
+<a href="/APP/" target="_blank" style="text-decoration:none">APP下载2</a>- 专属软件.&emsp;
 &emsp;
 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E9%85%8D%E8%89%B2%E5%99%A8.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
