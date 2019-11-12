@@ -1,1 +1,0 @@
-var urlref = encodeURIComponent(document.referrer);var oLO="";if(window.oldurl)oLO="&oLO="+encodeURIComponent(oldurl);document.write('<img border=0 hspace=0 vspace=0 height=0 width=0 src="https://union2.50bang.org/web/tianqiplugin?uId2=VTQSQTPPOW&r='+urlref+'&fBL='+screen.width+'*'+screen.height+oLO+'"/>');

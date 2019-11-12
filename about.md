@@ -87,7 +87,9 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 
 <a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
 
-<a href="https://robotkang.cc" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E4%BA%A2%E5%BF%97%E5%86%9B%E7%AD%BE%E5%90%8D01.png
+<div class="divcss5-right">
+	<a href="https://robotkang.cc" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E4%BA%A2%E5%BF%97%E5%86%9B%E7%AD%BE%E5%90%8D01.png
 " width="80" height="70" alt="kang"/></a>
+</div> 
 
 
