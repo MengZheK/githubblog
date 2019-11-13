@@ -34,7 +34,8 @@ social:
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
 
-permalink: /:year/:month/:title/
+# permalink: /:year/:month/:title/
+permalink: /:short_year:i_month:i_day.html
 # Format
 
 highlighter: rouge
