@@ -910,6 +910,7 @@ img::-moz-selection {
   color: #008B00; 
   float: left;
   font-size: 0.9em;
+  
 
 }
 
@@ -929,7 +930,7 @@ img::-moz-selection {
 }
 .post-list__meta--tags-right {
   color: #3c78d8;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .post-list-icon-mate {

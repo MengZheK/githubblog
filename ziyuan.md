@@ -26,8 +26,6 @@ title: 资源「USEFUL LINKS」
 <a href="/app/" target="_blank" style="text-decoration:none">APP下载1</a>
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="/APP/" target="_blank" style="text-decoration:none">APP下载2</a>- 专属软件.&emsp;
-&emsp;
-
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E9%85%8D%E8%89%B2%E5%99%A8.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://travelkang.fun" target="_blank" style="text-decoration:none" > Travelkang </a> 个人旅行站点 (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤   
 
