@@ -1,18 +1,18 @@
 # Basic
 title: Robotkang
-subtitle: 自留地
+subtitle: 科技、生活、音乐、人生
 description: 欢迎来到我的个人网站~
 # 头像里面的标题
 avatarTitle: RobotKang
 # 头像里面的描述
-avatarDesc: 机器人赛事/嵌入式
+avatarDesc: 机器人赛事
 url: "https://robotkang.cc"
 
 # Comment
 comment:
     provider: duoshuo
     duoshuo:
-     short_name: robotkang
+    short_name: robotkang
 
 # Social
 social:
