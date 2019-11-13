@@ -35,7 +35,11 @@ social:
 
 
 # permalink: /:year/:month/:title/
+
 permalink: /:short_year:i_month:i_day.html
+# 伪 postid 的方案,便于网站 SEO
+
+
 # Format
 
 highlighter: rouge

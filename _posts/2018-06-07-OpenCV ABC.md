@@ -9,7 +9,7 @@ tag: 技术
 
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
-<a target="_blank" href="https://robotkang.cc/2018/06/OpenCV-ABC/">原文地址：https://robotkang.cc/2018/06/OpenCV-ABC/ </a>
+<a target="_blank" href="https://robotkang.cc/1867.html">原文地址：https://robotkang.cc/1867.html </a>
 </h6>
 ### Visual Studio 2010 安装
 

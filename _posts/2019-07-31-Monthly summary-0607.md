@@ -7,7 +7,7 @@ tag: 总结
 ---   
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
-<a target="_blank" href="https://robotkang.cc/2019/07/Monthly-summary-0607/">原文地址：https://robotkang.cc/2019/07/Monthly-summary-0607/</a>
+<a target="_blank" href="https://robotkang.cc/19731.html">原文地址：https://robotkang.cc/19731.html</a>
 </h6>
 本来是在 6 月底就进行一次复盘的，没想到一犯拖延症就到了 6 月中旬，干脆就一起放到 7 月底写了。  
 

@@ -7,7 +7,7 @@ tag: 总结
 ---   
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
-<a target="_blank" href="https://robotkang.cc/2019/10/Monthly-summary-10/">原文地址：https://robotkang.cc/2019/10/Monthly-summary-10/</a>
+<a target="_blank" href="https://robotkang.cc/191031.html">原文地址：https://robotkang.cc/191031.html</a>
 </h6>
 
 金秋十月，与国同庆 🎉       

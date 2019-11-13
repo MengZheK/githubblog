@@ -51,7 +51,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 <h3> Ps </h3>   
 <p>
 如果你想搭建一个跟我一样的博客，可以看
-<a href="/2017/03/HowToCreateBlog/"> Jekyll+Github个人博客构建之路 </a>
+<a href="https://robotkang.cc/1733.html"> Jekyll+Github个人博客构建之路 </a>
 教程
 
 <p>

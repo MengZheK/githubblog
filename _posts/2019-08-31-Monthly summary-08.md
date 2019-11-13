@@ -7,7 +7,7 @@ tag: 总结
 ---   
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
-<a target="_blank" href="https://robotkang.cc/2019/08/Monthly-summary-08/">原文地址：https://robotkang.cc/2019/08/Monthly-summary-08/</a>
+<a target="_blank" href="https://robotkang.cc/19831.html">原文地址：https://robotkang.cc/19831.html</a>
 </h6>
 经常和身边的人聊起时间，都是感觉越长大越觉得时间过得好快好快，感觉一眨眼的功夫，一天就过去了，感觉什么都没干，一个月过去了。这不，又该到写月末总结的时候了。我室友倒是给我解释了一下他的看法，很深刻，他说小时候觉得时间过得很慢是因为小孩每天都在接触新的事物，世间的一切都觉得新鲜，而长大后的我们大多每天都做着重复的事情，自然而然的就觉得时间过得很快了，再加上信息爆炸，往往我们也会很快忘记过去的几天或几月干了什么事情。我觉得很有道理。      
 

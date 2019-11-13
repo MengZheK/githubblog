@@ -6,7 +6,7 @@ tag: 生活
 ---
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
-<a target="_blank" href="https://robotkang.cc/2017/03/helloworld1/">原文地址：https://robotkang.cc/2017/03/helloworld1/</a>
+<a target="_blank" href="https://robotkang.cc/17310.html">原文地址：https://robotkang.cc/17310.html</a>
 </h6>
  ![hello world](https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/2017-03-09.jpg)
 
@@ -36,5 +36,5 @@ tag: 生活
 > 怜，就给了他1块钱。 然后接着调试程序。他可能生意不好，就无聊的看看我在干什么，然后过了一会，他缓缓地指
 > 着我的屏幕说，这里少了个分号... 
 
-<a href="/photos/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E5%A4%A9%E7%AD%96.jpg" width="195" height="195" alt="photos"/></a>
+
 
