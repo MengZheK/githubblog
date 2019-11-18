@@ -16,7 +16,7 @@ tag: 技术
 
 - <a href='http://baixin.io/2016/10/jekyll_tutorials1/'>Jekyll搭建个人博客</a>
 
-### 说在前面的话
+### 说在前面的话 💯   
 
 - 我们需要做很多事情。包括环境配置，账号注册，域名购买（不是必须）等。之前一直想搞一个属于自己的博客，16年我以16元的价格买了一个域名「话说域名的续费有点小贵啊..」并且用python搭了一个离线的博客之后就不了了之了「关键部署太麻烦..」。直到前几又萌生出了搭建博客的心思，才又重新搞起。好在，经过几天的瞎搞，弄出来了。
 
@@ -65,7 +65,7 @@ tag: 技术
 
 ### 选择博客模板
 
-- 例如，我选择了<a href="https://github.com/leopardpan/leopardpan.github.io/">baixin</a>的博客模板。如果大家喜欢，可以将这个download下来。也可以去<a href="https://github.com/MengZheK/kangblog.github.io/">我的github</a>上fork我的。
+- 例如，我选择了<a href="https://github.com/leopardpan/leopardpan.github.io/">baixin</a>的博客模板。如果大家喜欢，可以将这个download下来。也可以去<a href="https://github.com/MengZheK/kangblog-theme">我的github</a>上fork我的。
 
 ### 将模板修改为自己的博客
 
@@ -214,6 +214,6 @@ git push
 
 **本文转载自Lilian，后稍加改之。特此声明！** 
 
-最后编辑时间为: Dec.27, 2017 at 06:02 pm          
+最后编辑时间为: Dec.18, 2019 at 06:02 pm          
 
 

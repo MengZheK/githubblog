@@ -11,11 +11,11 @@ date: 2018-01-20
 
 
 <div style="color:#FF6633">
-<p>	三尺微命，一介书生。求学于卫星湖畔，黄瓜山下，欲潜心研究智能机器人开发应用之道。然所学颇杂，对诸多方面均有涉猎，喜欢研究一些新技术和关注一些最新的科技~
+<p>	三尺微命，一介书生🧒。求学于卫星湖畔，黄瓜山下，欲潜心研究智能机器人开发应用之道。然所学颇杂，对诸多方面均有涉猎，喜欢研究一些新技术和关注一些最新的科技~ 
 </p>
 </div>
 <p>
-平时喜欢整理个人博客，逛逛技术论坛     
+平时喜欢整理个人博客，逛逛技术论坛 💯     
 <p>
 <!--喜欢日本，想着如果有机会一定会去日本生活一段时间-->        
 <div style="color:#008B00">
@@ -44,7 +44,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 </p>
 </div>
 <p>
-趁我在还能看得进书写得动代码的年纪，努力一回，看看这平庸的资质究竟能发挥几分。
+趁我在还能看得进书写得动代码的年纪，努力一回💪，看看这平庸的资质究竟能发挥几分。
 
 <p>
 
@@ -56,16 +56,16 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 
 <p>
 
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
+有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 😄    
 
 <p> 
 
-博客源码在 <a target="_blank" href='https://github.com/MengZheK/kangblog.github.io/' target="_blank" >Github</a> 上，你的 Star 是我更新的动力，谢谢~         
+博客源码在 <a target="_blank" href='https://github.com/MengZheK/kangblog-theme' target="_blank" >Github</a> 上，你的 Star 是我更新的动力，谢谢~         
 <p>
 
 <div style="color:#FF0000">
 <p>
-模板代码可任意使用，但请保留本站友情链接。 
+♻模板代码可任意使用，但请保留本站友情链接。👣   
 &emsp;      
 本站名称：Robotkang &emsp;        
 本站网址：https://www.robotkang.cc &emsp;         
