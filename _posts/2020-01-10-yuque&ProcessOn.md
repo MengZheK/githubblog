@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "酷工作丨生产力工具 01-yuque&ProcessOn"
+title: "酷工作丨生产力工具 01-yuque & ProcessOn"
 date: 2020-01-10 
 description: "工作"
 tag: 工作
@@ -8,17 +8,15 @@ tag: 工作
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
 <a target="_blank" href="https://robotkang.cc/200110.html">原文地址：https://robotkang.cc/200110.html </a>
-</h6>
-前段时间趁着离职的间隙，进行了一场说走就走的旅行，本来想去国外浪一圈的，可是由于签证等原因没有成行，就把目标锁定到了有彩云之南美称的「云南」。为了深入的体验当地的风土人情，我在 6 天的行程里只去了 <a style="color:#FF4500;text-decoration:none">昆明</a> 和 <a style="color:#FF4500;text-decoration:none">大理</a>，没有去 丽江 和 香格里拉一些其他的地方，打算留着下次去体验。哈哈~   
+</h6>    
 
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/posts/20200110/yuque01.jpg" width="948" height="380" alt="photos"/>                     
 
-<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/posts/20200110/yuque01.jpg" width="948" height="380" alt="photos"/>                  
-
-在工作中，现在做常用得文档工具是语雀，画图工具是 <a href="https://www.processon.com/i/5c19ca49e4b0e83682e60aef" target="_blank" style="text-decoration:none" > ProcessOn </a> 😉             
+在工作中，现在做常用得文档工具是语雀，画图工具是 <a href="https://www.processon.com/i/5c19ca49e4b0e83682e60aef" target="_blank" style="text-decoration:none" > ProcessOn </a> 😉               
 
 就在前几天，语雀官方向大家宣布：**语雀与 <a href="https://www.processon.com/i/5c19ca49e4b0e83682e60aef" target="_blank" style="text-decoration:none" > ProcessOn </a> 已正式达成合作，共同努力为大家提供更加极致的产品体验~** 可喜可贺 🎉                             
 
-**当可能是西湖区最好用的文档工具**，碰到**可能是海淀区最好用的作图工具**，会擦出什么火花🔥？           
+**当可能是西湖区最好用的文档工具**，碰到**可能是海淀区最好用的作图工具**，会擦出什么火花🔥？             
 
 ### 刚见面就合拍，是遇见了对的人      
 
@@ -45,7 +43,7 @@ tag: 工作
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/posts/20200110/yuque03.gif" width="491" height="282" alt="photos"/>                 
 
 
-ProcessOn 文件就嵌进来啦~         
+ProcessOn 文件就嵌进来啦~          
 
 ### 用在哪儿？          
 
@@ -67,7 +65,7 @@ ProcessOn 可以用来绘制流程图、思维导图、原型图、UML 和网络
 
 大家闲时写读书笔记时，甚至可以将 ProcessOn 绘制的**人物关系图**嵌到语雀🌚           
 
-总之就是，语雀管写，<a href="https://www.processon.com/i/5c19ca49e4b0e83682e60aef" target="_blank" style="text-decoration:none" > ProcessOn </a> 管画，齐活了🙈            
+总之就是，语雀管写，<a href="https://www.processon.com/i/5c19ca49e4b0e83682e60aef" target="_blank" style="text-decoration:none" > ProcessOn </a> 管画，齐活了🙈             
 
 
 ----------
