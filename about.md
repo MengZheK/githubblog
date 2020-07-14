@@ -17,7 +17,7 @@ date: 2018-01-20
 <p>
 平时喜欢整理个人博客，逛逛技术论坛 💯     
 <p>
-<!--喜欢日本，想着如果有机会一定会去日本生活一段时间-->        
+喜欢日本，想着如果有机会一定会去日本生活一段时间        
 <div style="color:#008B00">
 <p>
 喜欢Spoken English，虽然现在很渣，但一直在努力...        
@@ -79,8 +79,8 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 	}
 </script>
 
-<p>邮箱：robotkang@foxmail.com &emsp;<a href="#" onmouseover="mousemethod('block','img1')" onmouseout="mousemethod('none','img1')" style="color:#FF4500;text-decoration:none">微信：鼠标悬浮扫二维码</a><img id="img1" src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/kangweixin.jpg" style="display:none;"  width="128" height="128">&emsp;
-	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：杂家FANS</a><img id="img2" src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/kanggzh.png" style="display:none;" width="128" height="128" >
+<p>邮箱：robotkang@foxmail.com &emsp;微信：zhijunk-k 
+	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：蒙古海军船长</a><img id="img2" src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/kanggzh.png" style="display:none;" width="128" height="128" >
  
  
 

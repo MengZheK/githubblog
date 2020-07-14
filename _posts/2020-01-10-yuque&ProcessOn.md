@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "酷工作丨生产力工具 01-yuque & ProcessOn"
+title: "酷工作丨生产力工具 01-语雀 & ProcessOn"
 date: 2020-01-10 
 description: "工作"
 tag: 工作
