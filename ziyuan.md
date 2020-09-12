@@ -75,6 +75,7 @@ title: 资源「USEFUL LINKS」
 <a href="http://szhshp.org" target="_blank" >szhshp</a>- 前端，设计，游戏，生活.&emsp;
 <a href="https://xiaolei.tech" target="_blank" >Xiaolei</a>- 电科，影响了我的一位大神.&emsp;
 <a href="https://program-think.blogspot.com/" target="_blank" >编程随想的博客</a>- 需翻墙&emsp;
+<a href="https://atjason.com/" target="_blank" >Jason</a>- 独立开发者，自由职业者&emsp;
 
 <h3> Others</h3>  
 <p> 
