@@ -9,7 +9,7 @@ title: 资源「USEFUL LINKS」
 
 <P>       
 <h3> Personal Website</h3>   
-<p>
+<p>   
 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E9%85%8D%E8%89%B2%E5%99%A8.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="/college/" target="_blank" style="text-decoration:none">大学|四年</a>- 记青春年华. &emsp;
