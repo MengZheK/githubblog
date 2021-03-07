@@ -12,7 +12,7 @@ tag: 技术
 
 *本博客的搭建真是历经了千辛万苦、一步一坑啊。*
 
-### 参考博客
+### 参考博客 
 
 - <a href='http://baixin.io/2016/10/jekyll_tutorials1/'>Jekyll搭建个人博客</a>
 
