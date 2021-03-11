@@ -67,7 +67,7 @@ Ps_遇事不要慌，冷静下来总有解决的办法。虽然我知道这事�
 
 关于工作，我得改变点什么了，要有新的突破，不然时间会慢慢抹杀你的激情和对这个世界的好奇心以及求知欲，至少，现在的我还没有被很多东西束缚住。       
 
-对了，我的 YouTube 频道订阅人数达到了 291 人，离我 1000 订阅的目标又近了一步。有条件的同学可以订阅关注一波😁：<a href="https://www.youtube.com/channel/UC8EyzbUNGrO7_P0GfUs6MDg?sub_confirmation=1" target="_blank">蒙古海军 Mongolian Navy</a>。                             
+对了，我的 YouTube 频道订阅人数达到了 700 人，离我 1000 订阅的目标又近了一步。有条件的同学可以订阅关注一波😁：<a href="https://www.youtube.com/channel/UC8EyzbUNGrO7_P0GfUs6MDg?sub_confirmation=1" target="_blank">蒙古海军 Mongolian Navy</a>。                             
 
 以上，就是我 2 月份的 Review，断断续续写了两个多小时，2300 多字，OK，that's all.            
 
