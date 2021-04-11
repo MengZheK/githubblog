@@ -6,7 +6,7 @@ date: 2018-01-20
 <a href="/photos/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E5%A4%A9%E7%AD%96.png" width="150" height="150" alt="photos"/></a>
 
 <p>
-~~刚刚走出~~ 已出走三年多象牙塔的 Maker <a href="/Mr.Kang_Developer/" target="_blank"> 「我的简历」 </a>    
+<span style="text-decoration: line-through">刚刚走出</span> 已出走三年多象牙塔的 Maker <a href="/Mr.Kang_Developer/" target="_blank"> 「我的简历」 </a>    
  
 
 
