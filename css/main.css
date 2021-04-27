@@ -520,6 +520,7 @@ img::-moz-selection {
     margin: 0 0 5px 0;
     margin-top: 20px;
     font-size: 1.8em;
+    font-weight: bold;
     letter-spacing: 4px;
     color: #FFF; }
 
@@ -527,8 +528,9 @@ img::-moz-selection {
     font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-size: 0.8em;/*自留地*/
     font-weight: lighter;
+    font-style:oblique;
     letter-spacing: 3px;
-    color:#FF0000;
+    color:#FFF;
     -webkit-font-smoothing: antialiased; }
 
   .panel-cover {
