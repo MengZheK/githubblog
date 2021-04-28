@@ -564,7 +564,8 @@ img::-moz-selection {
 
   .panel-cover__description {
     margin: 0 30px; 
-   font-weight:500;
+    font-weight:500;
+    padding-left: 0px;
 }
 
   .panel-cover__divider {
