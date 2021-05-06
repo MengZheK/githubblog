@@ -62,7 +62,7 @@ html {
 }
 
 body {
-  font-family: "Quote","Noto Serif CJK","Consolas","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   /*font-size: 14px;*/
   color: #333;
@@ -102,7 +102,8 @@ h5,
 h5 {
   margin-top: 1.0em;
   margin-bottom: .5em;
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
   font-weight: lighter;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -182,7 +183,8 @@ blockquote {
   margin-left: 0px;
   padding-left: 0px;
 
-  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
   font-weight: lighter;
   font-size: 1em;
   border-left: 5px solid #00dfff; 
@@ -209,7 +211,8 @@ code {
   background: #e8f2fb;
   border: 1px solid #c9e1f6;
   border-radius: 3px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
   font-size: 1.0em;
   vertical-align: bottom;
   word-wrap: break-word; }
@@ -220,7 +223,8 @@ pre {
   background: #e8f2fb;
   border: 1px solid #c9e1f6;
   border-radius: 3px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
   font-size: .9em;
   font-weight: normal;
   line-height: 1.3em;
@@ -373,7 +377,8 @@ img::-moz-selection {
   }
 
   .intro {
-    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
     font-size: 1.2em;
     font-weight: lighter;
     color: #999999; }
@@ -526,7 +531,8 @@ img::-moz-selection {
     color: #FFF; }
 
   .panel-subtitle {
-    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
     font-size: 0.8em;/*自留地*/
     font-weight: lighter;
     font-style:oblique;
