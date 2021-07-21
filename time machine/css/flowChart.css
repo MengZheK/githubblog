@@ -4,7 +4,10 @@
 }
 .flowChart {
 	background-color: rgb(245, 245, 245);
-	padding: 12px;
+	padding-top: 12px;
+    padding-right: 120px;
+    padding-bottom: 12px;
+    padding-left: 120px;
 	display: flex;
 }
 .flowChart-left {
