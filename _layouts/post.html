@@ -1,0 +1,128 @@
+---
+layout: default
+---
+
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- latex公式支持代码 end -->
+
+<!-- 代码高亮设置 begin 
+<link rel="stylesheet" href="/css/pygments-default.css">
+ 代码高亮设置 end -->
+
+
+<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta" style="color:#C3C3C3;border-bottom-width: 1px;border-bottom-style: dashed;padding-bottom: 0px;padding-top: 5px;">
+      <img src="/images/calendar.png" width="20px" style="vertical-align:text-top;"/> 
+      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time> | 
+         
+     <span id="busuanzi_container_page_pv">
+  	 阅读：<span id="busuanzi_value_page_pv"></span>次
+	 </span>
+    </p>
+    </div>
+  </header>
+
+  <section class="post">
+
+    {{ content }}
+  </section>
+</article>
+
+
+<hr><br/><br/>
+{% include share.html %}
+{% include dashang1.html %}
+{% include new-old.html %}
+
+<br/>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Valine - A simple comment system based on Leancloud.</title>
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库:-->
+    <script src="/Valine-1.1.8/dist/Valine.min.js"></script>
+
+
+</head>
+
+<!--VPN广告-->
+<!--<a href="https://p.comworld.club/?aff=Q" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/banner.jpg" width="100%" height="auto" alt="photos" display="block"/></a>-->
+
+<!--Google广告-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7648908799310520"
+     crossorigin="anonymous"></script>
+<!-- 文章尾部 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7648908799310520"
+     data-ad-slot="8099362936"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br/>
+<p></p>
+<!--评论-->
+   <div class="comment"></div>
+    
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment', // 
+            app_id: '5z3QHKTEMlSqxReRnfeFG1cC-gzGzoHsz', // 这里填写上面得到的APP ID
+            app_key: '59CrEdy9yw1xmqcDQ4JcJbWy', // 这里填写上面得到的APP KEY
+            placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!', // [v1.0.7 new]留言框占位提示文字
+            avatar:'wavatar',
+            path:window.location.pathname,
+            guest_info:['nick','mail','link'] ,
+            pageSize:10,
+        });
+    </script>
+
+
+
+
+
+
+

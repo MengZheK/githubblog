@@ -1,0 +1,662 @@
+body {
+	margin: 0;
+	background: #fff;
+	line-height: 1;
+	font-family: 'Pingfang SC', 'Lantinghei SC', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: inherit;
+}
+ul, ol { list-style-type: none; }
+img {
+	border: none;
+	vertical-align: top;
+}
+a, a:visited {
+	text-decoration: none;
+	color: #08c;
+}
+a:hover { text-decoration: underline; }
+
+
+/* 清浮动 */
+.clearfix:after {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: '.';
+}
+
+/* 通用列表样式 */
+.list>li { list-style: disc; margin-left: 1.3em; }
+
+/* 通用内容样式 */
+.content {
+	line-height: 1.7;
+	text-align: justify;
+}
+
+/* 旧式安卓浏览器下，文字不能按全宽度排版，必须加背景 */
+.list>li,
+.content>p {
+	background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+	background-repeat: no-repeat; 
+}
+
+/* 控制某些内容在打印时的显示隐藏 */
+.only-for-print { display: none; }
+
+/* 内容边界 */
+.boundary { clear: both; }
+@media (max-width: 768px) {
+	.boundary { margin: 0 20px; }
+}
+@media (min-width: 769px) and (max-width: 1040px) {
+	.boundary { margin: 0 30px; }
+}
+@media (min-width: 1040px) {
+	.boundary {
+		max-width: 980px;
+		margin: 0 auto;
+	}
+}
+
+
+/* 按钮 */
+.button {
+	border-radius: 0.4em;
+	padding: 0 0.6em;
+	background: #1d9bd9;
+	background: -webkit-linear-gradient(#3baee7, #08c);
+	background: linear-gradient(#3baee7, #08c);
+	color: #f6f6f6;
+}
+a.button { display: inline-block; }
+.button:visited { color: #f6f6f6; }
+.button:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #2fa2dc;
+	background: -webkit-linear-gradient(#4ab4e8, #1491d0);
+	background: linear-gradient(#4ab4e8, #1491d0);
+}
+
+
+/* 页头 */
+.header {
+	border-bottom: 1px solid #d6d6d6;
+	padding: 15px 0;
+}
+.header__logo__fullname {
+	width: 88px;
+	height: 28px;
+}
+.header__logo__jobtitle { color: #888; }
+.header__address {
+	padding-top: 3px;
+	line-height: 21px;
+	font-style: normal;
+	font-size: 14px;
+	clear: both;
+}
+.header__address__item {
+	height: 20px;
+	line-height: 20px;
+	margin-top: 8px;
+	padding-left: 24px;
+	background: url(../images/icon-sprites.png) no-repeat;
+	background-size: 20px auto;
+}
+.header__address__item-phone { background-position: 0 0; }
+.header__address__item-qq { background-position: 0 -27.5px; }
+.header__address__item-email { background-position: left bottom; }
+.header__address__item-blog {
+	padding-left: 0;
+	background: none;
+}
+.header__address .button { font-size: 12px; }
+
+@media (max-width: 319px) {
+	.header__logo__jobtitle {
+		margin-top: 8px;
+		display: block;
+	}
+}
+
+@media (min-width: 320px) {
+	.header__logo {
+		position: relative;
+		float: left;
+		height: 28px;
+		line-height: 28px;
+	}
+	.header__logo__jobtitle {
+		position: absolute;
+		left: 100%;
+		bottom: 0;
+		padding-left: 10px;
+		line-height: 20px;
+		white-space: nowrap;
+	}
+}
+
+@media (min-width: 520px) {
+	.header__address__item {
+		float: left;
+		margin-right: 22px;
+	}
+	.header__address__item-blog {
+		float: right;
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 880px) {
+	.header {
+		width: 100%;
+		height: 38px;
+		position: fixed;
+		z-index: 99990;
+		overflow: hidden;
+		background: rgba(255, 255, 255, 0.95);
+	}
+	.header .boundary { position: relative; }
+	.header__logo { height: 38px; }
+	.header__logo__fullname {
+		width: 120px;
+		height: 100%;
+	}
+	.header__logo__jobtitle {
+		position: absolute;
+		left: 100%;
+		bottom: 0;
+		line-height: 20px;
+	}
+	.header__address {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.header__address__item {
+		margin-left: 28px;
+		margin-right: 0;
+	}
+
+	/* 空出页头位置 */
+	.main { padding-top: 71px; }
+}
+
+
+/* 章节 */
+.section:nth-child(even) { background: #fafafa; }
+.section__header {
+	text-shadow: 1px 1px 0 #fff;
+	line-height: 1.4;
+}
+.section__header__title, .section__header__subtitle {
+	font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+	text-align: center;
+}
+.section__header__subtitle { color: #999; }
+
+@media (max-width: 749px) {
+	.section .boundary { padding: 25px 0; }
+	.section__header { margin-bottom: 20px; }
+	.section__header__title { font-size: 26px; }
+	.section__header__subtitle { font-size: 20px; }
+}
+
+@media (min-width: 750px) {
+	.section .boundary { padding: 50px 0; }
+	.section__header { margin-bottom: 35px; }
+	.section__header__title { font-size: 42px; }
+	.section__header__subtitle { font-size: 34px; }
+}
+
+
+/* 技术技能章节 */
+.tech-skill-list__item {
+	position: relative;
+	animation-duration: 1.5s;
+}
+.tech-skill-list__item-javascript {
+	animation-name: bar-javascript;
+}
+@keyframes bar-javascript {
+	0% { width: 0; }
+	100% { width: 100%; }
+}
+.tech-skill-list__item-html-and-css {
+	width: 95%;
+	animation-name: bar-html-and-css;
+}
+@keyframes bar-html-and-css {
+	0% { width: 0; }
+	100% { width: 95%; }
+}
+.tech-skill-list__item-nodejs {
+	width: 80%;
+	animation-name: bar-nodejs;
+}
+@keyframes bar-nodejs {
+	0% { width: 0; }
+	100% { width: 80%; }
+}
+.tech-skill-list__item-sql {
+	width: 60%;
+	animation-name: bar-sql;
+}
+@keyframes bar-sql {
+	0% { width: 0; }
+	100% { width: 60%; }
+}
+.tech-skill-list__item-photoshop {
+	width: 45%;
+	animation-name: bar-photoshop;
+}
+@keyframes bar-photoshop {
+	0% { width: 0; }
+	100% { width: 45%; }
+}
+.tech-skill-list__item__name {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border-left: 3px solid;
+	overflow: hidden;
+	background-color: #fff6dd;
+	border-color: #fdbc40;
+	color: #ff742a;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.45);
+	cursor: default;
+}
+.tech-skill-list__item--practised .tech-skill-list__item__name {
+	background-color: #eaf6d0;
+	border-color: #80bd01;
+	color: #6e9c0f;
+}
+.tech-skill-list__item--mastered .tech-skill-list__item__name {
+	background-color: #d6efff;
+	border-color: #3498db;
+	color: #2a7da9;
+}	
+.tech-skill-list__item__detail {
+	position: absolute;
+	left: 150px;
+	top: 12px;
+	z-index: 9999;
+	width: 350px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	line-height: 1.5;
+	display: none;
+}
+
+@media (max-width: 749px) {
+	.tech-skill-list__item { margin-bottom: 15px; }
+}
+
+@media (min-width: 750px) {
+	.section-tech-skill .boundary {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.tech-skill-list__item { margin-bottom: 20px; }
+	.tech-skill-list__item:hover .tech-skill-list__item__detail {
+		display: block;
+		font-size: 14px;
+	}
+
+	@keyframes fade-in {
+		0% {
+			display: none;
+			opacity: 0;
+		}
+		1% {
+			display: block;
+			opacity: 0;
+		}
+		100% {
+			display: block;
+			opacity: 1;
+		}
+	}
+	.fade { animation: fade-in 0.8s; }
+}
+
+
+/* 教育经历 */
+@media (max-width: 1023px) {
+	.edu {
+		margin-top: 25px;
+		padding-bottom: 15px;
+		border-bottom: 2px dashed #ccc;
+	}
+	.edu-university {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	.edu__logo {
+		width: 30%;
+		max-width: 150px;
+		min-width: 120px;
+		margin: 0 0 10px 30px;
+		float: right;
+	}
+}
+
+@media (min-width: 1024px) {
+	.edu {
+		width: 50%;
+		float: left;
+		box-sizing: border-box;
+	}
+	.edu-seniorschool { padding-right: 4%; }
+	.edu-university {
+		padding-left: 4%;
+		border-left: 2px dashed #ccc;
+	}
+	.edu-seniorschool .edu__body { padding-right: 190px; }
+	.edu-university .edu__body { padding-left: 190px; }
+	.edu__logo { width: 150px; }
+	.edu-seniorschool .edu__logo {
+		float: right;
+		margin-right: -190px;
+	}
+	.edu-university .edu__logo {
+		float: left;
+		margin-left: -190px;
+	}
+}
+
+
+/* 工作经验章节 */
+.work-exp-list {
+	padding: 1px 0;
+	margin-left: 8px;
+	border-left: 4px solid #ccc;
+}
+.work-exp-list__point {
+	position: relative;
+	padding-left: 15px;
+	margin: 15px 0;
+	height: 26px;
+	line-height: 26px;
+}
+.work-exp-list__point__ico {
+	position: absolute;
+	left: -11px;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin: 4px 0;
+	background: #3498db;
+	font-size: 0;
+}
+.work-exp-list__point__ico:before,
+.work-exp-list__point__ico:after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	content: ' ';
+	background: #fff;
+}
+.work-exp-list__point__ico:before { bottom: 100%; }
+.work-exp-list__point__ico:after { top: 100%; }
+.work-exp-list__company { margin-left: 20px; }
+.work-exp-list__company__header__logo {
+	width: 100px;
+	display: block;
+	text-align: center;
+}
+.work-exp-list__company__header__logo img { width: 100%; }
+.work-exp-list__company__header__title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.work-exp-list__company__header__jobtitle { color: #888; }
+.work-exp-list__company__body { margin-top: 8px; }
+
+@media (max-width: 639px) {
+	.work-exp-list__company__header__logo {
+		display: block;
+		margin-bottom: 8px;
+		text-align: left;
+	}
+	.work-exp-list__company__header__title {
+		margin-top: 10px;
+		color: blue;
+	}
+	.work-exp-list__company__header__jobtitle { margin-top: 6px; }
+}
+
+@media (min-width: 640px) {
+	.work-exp-list__company {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.work-exp-list__company__header {
+		position: relative;
+		padding-left: 115px;
+	}
+	.work-exp-list__company__header__logo {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.work-exp-list__company__header__title,
+	.work-exp-list__company__header__jobtitle { display: inline-block; }
+	.work-exp-list__company__header__jobtitle:before {
+		content: '\2014\2014';
+		padding-right: 4px;
+	}
+	.work-exp-list__company__body { padding-left: 115px; }
+}
+
+@media (min-width: 750px) {
+	.work-exp-list__company__header,
+	.work-exp-list__company__body {
+		padding-left: 125px;
+	}
+}
+
+
+/* 项目经验章节 */
+.project { border-top: 2px dashed #ccc; }
+.project:first-child {
+	border-top: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+.project__intro__header {
+	position: relative;
+	margin-bottom: 8px;
+	line-height: 1.3;
+}
+.project__intro__header__title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.project__intro__header__title__label {
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #888;
+}
+
+.tech-tag-list__item {
+	height: 24px;
+	line-height: 24px;
+	padding: 0 6px;
+	border-radius: 3px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.75em;
+	font-family: 'Lucida Grande', arial;
+	color: #fff;
+}
+.tech-tag-list__item-javascript {
+	background: #ffda3f;
+	color: #333 !important;
+}
+.tech-tag-list__item-nodejs { background: #80bd01; }
+.tech-tag-list__item-html { background: #f60; }
+.tech-tag-list__item-css { background: #f90; }
+.tech-tag-list__item-aspdotnet { background: #68217a; }
+.tech-tag-list__item-sqlite { background: #003b57; }
+.tech-tag-list__item-mysql { background: #015a84; }
+
+.project__intro__header__period {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	line-height: 24px;
+	font-size: 14px;
+	color: #888;
+}
+.project__intro__links {
+	margin-top: 10px;
+	text-align: right;
+	word-spacing: 1em;
+}
+.project__thumb img {
+	width: 100%;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 379px) {
+	.project__intro__header__period {
+		position: static;
+		margin-top: 2px;
+	}
+}
+
+@media (max-width: 749px) {
+	.project {
+		margin-top: 18px;
+		padding-top: 22px;
+	}
+	.project__thumb {
+		width: 90%;
+		margin: 12px auto 0 auto;
+	}
+	.project__intro__header__title { padding-bottom: 3px; }
+}
+
+@media (min-width: 750px) {
+	.project__intro {
+		width: 100%;
+		float: left;
+	}
+	.project__intro__header { margin-top: -2px; }
+	.project__intro__header__title { padding-bottom: 3px; }
+
+	.project__thumb {
+		float: right;
+		background: #eee;
+	}
+	.project--nothumb { padding-right: 10px !important; }
+}
+
+@media (min-width: 750px) and (max-width: 959px) {
+	.project {
+		margin-top: 20px;
+		padding-top: 30px;
+		padding-right: 290px;
+	}
+	.project__thumb {
+		width: 250px;
+		margin-right: -280px;
+	}
+}
+
+@media (min-width: 960px) {
+	.project {
+		margin-top: 25px;
+		padding-top: 35px;
+		padding-left: 10px;
+		padding-right: 380px;
+	}
+	.project__thumb {
+		width: 320px;
+		margin-right: -370px;
+	}
+}
+
+
+/* 分享会章节 */
+.section-salon {
+	background: url(../images/section-salon-bg.jpg) no-repeat top center;
+	background-size: cover;
+}
+.section-salon .section__body {
+	text-align: center;
+}
+.section-salon__summary {
+	display: inline-block;
+	margin: 0 5%;
+	vertical-align: top;
+	line-height: 1.5;
+	text-align: left;
+}
+.section-salon__summary p:first-child { margin-top: 0; }
+.section-salon__summary strong {
+	text-shadow: 1px 1px 0 #fff;
+	color: #ffc000;
+}
+.section-salon__summary a { padding: 0 4px; }
+
+@media (max-width: 749px) {
+	.section-salon__summary p { margin-top: 5px; }
+}
+
+@media (min-width: 750px) {
+	.section-salon__summary p { margin-top: 10px; }
+}
+
+
+/* 页脚 */
+.footer {
+	border-top: 1px solid #e8e8e8;
+	font-size: 0.875em;
+	color: #888;
+}
+.footer .boundary { padding: 15px 0; }
+.footer__qrcode__img {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.footer__qrcode__text {
+	margin: 7px 0 0 10px;
+	float: left;
+}
+.footer__copyright a { color: #000; }
+
+@media (max-width: 749px) {
+	.footer__copyright { margin-top: 8px; }
+	.footer__copyright p { text-align: left; }
+}
+
+@media (min-width: 750px) {
+	.footer__qrcode { float: left; }
+	.footer__copyright {
+		margin-top: 7px;
+		float: right;
+	}
+	.footer__copyright p { text-align: right; }
+}

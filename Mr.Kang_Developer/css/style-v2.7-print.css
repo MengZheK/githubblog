@@ -1,0 +1,290 @@
+@page {
+	size: A4 portrait;
+	margin: 2.1cm 1.9cm;
+}
+
+
+body {
+	margin: 0;
+	background: #fff;
+	line-height: 1;
+	font-family: 'Pingfang SC', 'Lantinghei SC', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	-webkit-print-color-adjust: exact;
+	color-adjust: exact;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: inherit;
+}
+ul, ol { list-style-type: none; }
+img {
+	border: none;
+	vertical-align: top;
+}
+a, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+
+/* 清浮动 */
+.clearfix:after {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: '.';
+}
+
+/* 内容边界 */
+.boundary {
+	margin: 0 10px;
+	clear: both;
+}
+
+/* 通用列表样式 */
+.list > li {
+	list-style: disc;
+	margin-left: 1.3em;
+}
+
+/* 通用内容样式 */
+.content {
+	line-height: 1.7;
+	text-align: justify;
+}
+
+/* 控制某些内容在打印时的显示隐藏 */
+.not-for-print { display: none; }
+
+
+/* 页头 */
+.header {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 4px;
+}
+.header__logo { height: 36px; }
+.header__logo__fullname,
+.header__logo__jobtitle,
+.header__logo__univercity {
+	float: left;
+}
+.header__logo__fullname {
+	margin-top: 0;
+	height: 36px;
+	font-family: 'PingHei', 'STHeiti SC', 'SimHei';
+}
+.header__logo__jobtitle,
+.header__logo__univercity {
+	margin-top: 20px;
+	padding-left: 10px;
+	line-height: 18px;
+	font-size: 16px;
+	color: #888;
+}
+.header__logo__univercity {
+	float: right;
+	font-size: 15px;
+	font-style: italic;
+}
+.header__logo__univercity em {
+	color: #000;
+}
+.header__address {
+	margin-top: 13px;
+	line-height: 20px;
+	font-style: normal;
+	font-size: 13px;
+	clear: both;
+}
+.header__address__item {
+	margin-right: 20px;
+	padding-left: 25px;
+	background: url(../images/icon-sprites.png) no-repeat;
+	background-size: 18px auto;
+	float: left;
+}
+.header__address__item:last-child { margin-right: 0; }
+.header__address__item-phone { background-position: 0 1px; }
+.header__address__item-qq { background-position: 0 -25px; }
+.header__address__item-email { background-position: left -50px; }
+.header__address__item-blog,
+.header__address__item-univercity {
+	padding-left: 0;
+	float: right;
+	background: none;
+}
+.header__address__item-blog a:before { content: '['; }
+.header__address__item-blog a:after { content: '](' attr(href) ')'; }
+
+
+/* 章节 */
+.section .boundary { padding: 20px 0; }
+.section__header {
+	margin-bottom: 16px;
+	line-height: 1.3;
+	font-size: 26px;
+}
+.section__header__title,
+.section__header__subtitle {
+	display: inline-block;
+	font-family: 'Microsoft JhengHei', 'Microsoft YaHei', 'STHeiti SC', 'SimHei';
+}
+.section__header__subtitle {
+	margin-left: 8px;
+	font-size: 18px;
+	color: #999;
+}
+
+
+/* 技术技能章节 */
+.tech-skill-list__item {
+	list-style-type: disc;
+	margin: 5px 0 0 1.3em;
+}
+.tech-skill-list__item__detail {
+	line-height: 18px;
+}
+
+
+/* 教育经历 */
+.edu-university .edu__body {
+	position: relative;
+	padding-right: 115px;
+}
+.edu-university .edu__logo {
+	position: absolute;
+	right: -4px;
+	top: -5px;
+	width: 95px;
+}
+
+
+/* 工作经验章节 */
+.work-exp-list {
+	padding: 1px 0;
+	margin-left: 8px;
+	border-left: 4px solid #ddd;
+}
+.work-exp-list__point {
+	position: relative;
+	padding-left: 15px;
+	margin: 15px 0;
+	height: 20px;
+	line-height: 20px;
+}
+.work-exp-list__point__ico {
+	position: absolute;
+	left: -12px;
+	top: 0;
+	width: 14px;
+	height: 14px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	background: #3498db;
+}
+.work-exp-list__company { margin: 10px 0 10px 20px; }
+.work-exp-list__company__header {
+	position: relative;
+	padding-right: 150px;
+}
+.work-exp-list__company__header__logo {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+	text-align: right;
+}
+.work-exp-list__company__header__logo img { width: 100%; }
+.work-exp-list__company__header__title,
+.work-exp-list__company__header__jobtitle { display: inline-block; }
+.work-exp-list__company__header__title {
+	font-size: 14px;
+	font-weight: bold;
+}
+.work-exp-list__company__header__title a {
+	color: #000 !important;
+}
+.work-exp-list__company__header__jobtitle { color: #888; }
+.work-exp-list__company__header__jobtitle:before {
+	content: '\2014\2014';
+	padding-right: 4px;
+}
+.work-exp-list__company__body {
+	margin-top: 8px;
+	padding-right: 150px;
+}
+
+
+/* 项目经验章节 */
+.project {
+	padding: 20px 0 14px 0;
+	border-bottom: 2px dashed #ddd;
+}
+.project:first-child {
+	padding-top: 0;
+}
+.project__intro__header {
+	position: relative;
+	margin-bottom: 4px;
+	line-height: 20px;
+}
+.project__intro__header__title {
+	font-size: 14px;
+	font-weight: bold;
+}
+.project__intro__header__title__label {
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #888;
+}
+.project__intro__header__period {
+	position: absolute;
+	right: 0;
+	top: 2px;
+	width: 80px;
+	line-height: 1.5;
+	text-align: right;
+	color: #888;
+}
+.project .content { padding-right: 120px; }
+
+
+/* 分享会章节 */
+.section-salon__summary { line-height: 1.5; }
+.section-salon__summary p { margin-top: 5px; }
+.section-salon__summary p:first-child { margin-top: 0; }
+
+
+/* 页脚 */
+.footer {
+	margin-top: 10px;
+	border-top: 1px solid #ccc;
+	color: #888;
+}
+.footer .boundary { padding-top: 15px; }
+.footer__qrcode { float: left; }
+.footer__qrcode__img {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.footer__qrcode__text {
+	margin: 10px 0 0 10px;
+	float: left;
+}
+.footer__copyright {
+	margin-top: 10px;
+	float: right;
+}
+.footer__copyright p { text-align: right; }
