@@ -35,12 +35,11 @@ tag: 总结
 
 本福州直行结束就要返回深圳了，但我打开地图查看周围，平潭岛，早有耳闻，不远，遂临时决定调休两日，去浪它一波。就这样将回深车票退掉，改签平潭。下面是我平潭几日的游记，点击跳转查看：                 
 
-- 游记07丨东海仙境-平潭.上篇：<a href="https://robotkang.cc/21713.html" target="_blank">https://robotkang.cc/21713.html</a>         
-   
+- 游记 07丨东海仙境-平潭.上篇：<a href="https://robotkang.cc/21713.html" target="_blank">https://robotkang.cc/21713.html</a>             
 - 游记 08丨面朝大海-平潭.下篇：<a href="https://robotkang.cc/21714.html" target="_blank">https://robotkang.cc/21714.html</a>           
 - 旅行图集 TravelKang：<a href="https://travelkang.fun/" target="_blank">https://travelkang.fun/</a>           
 
-平潭之行结束后，又到福清市出差一周支持商场活动，也去福耀玻璃园区转了一转，就此按下不表。       
+平潭之行结束后，又到福清市出差一周支持商场活动，也去福耀玻璃园区转了一转，就此按下不表。             
 
 
 ### 游戏《原神》        
