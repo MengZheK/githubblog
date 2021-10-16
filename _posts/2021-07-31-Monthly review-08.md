@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "复盘丨Monthly Review-07月"
+title: "复盘丨Monthly Review-08月"
 date: 2021-08-31 
 description: "月度总结"
 tag: 总结
