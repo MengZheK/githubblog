@@ -16,7 +16,7 @@ title: 资源「USEFUL LINKS」
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E4%BC%98%E7%95%8C%E7%BD%91.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="/time machine/" style="color:#DC143C" target="_blank" style="text-decoration:none">微语</a>- Time Machine &emsp;
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="https://www.yuque.com/docs/share/62c23bdd-bfd1-4839-9b13-e58beabe9d86" style="color:#DC143C" target="_blank" style="text-decoration:none">强身健体</a>-  FLAG 
+<a href="https://www.yuque.com/docs/share/62c23bdd-bfd1-4839-9b13-e58beabe9d86" style="color:#DC143C" target="_blank" style="text-decoration:none">强身健体</a>-  FLAG    
 
 &emsp;
 
