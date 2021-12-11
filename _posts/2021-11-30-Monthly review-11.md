@@ -37,6 +37,7 @@ tag: 总结
 以下是我的斜视手术期间的过程：          
 
 - 中山大学眼科中心斜视手术经历（含费用）：<a href="https://robotkang.cc/211117.html" target="_blank">https://robotkang.cc/211117.html</a>                          
+
 手术后第二天上午在医院检查完后，和文博去点都德吃了一顿。由于我的眼睛 👀 视力已恢复，就没让他和我一起回深圳，我们在广州南站分别，他回珠海，我返深圳。          
 
 往后半月，在家养伤，吃了睡，睡了吃，腐败，无聊、郁闷、失落但又怡然自得和无比快乐，哈哈哈。         
@@ -61,7 +62,7 @@ All the things that I did, you need to understand…
 I liked it,         
 I was good at it.          
 And...I was...really...        
-I was alive.           
+**I was alive.**          
 
 如果，       
 在你可预见的有期限的生命的结尾，        
@@ -75,4 +76,3 @@ I was alive.
 📌 写于 2021年11月30日22:09:01 ，深圳                               
 
 </h6>      
-
