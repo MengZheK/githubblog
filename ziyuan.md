@@ -71,7 +71,6 @@ title: 资源「USEFUL LINKS」
 <p>
 
 <a href="https://www.dandyweng.com" target="_blank" >翁天信</a>- homeschooling、自由的行者...&emsp;
-<a href="https://www.iots.vip" target="_blank" >Alliot's blog</a>- Maker & Developer&emsp;
 <a href="http://szhshp.org" target="_blank" >szhshp</a>- 前端，设计，游戏，生活.&emsp;
 <a href="https://xiaolei.tech" target="_blank" >Xiaolei</a>- 电科，影响了我的一位大神.&emsp;
 <a href="https://program-think.blogspot.com/" target="_blank" >编程随想的博客</a>- 需翻墙&emsp;
