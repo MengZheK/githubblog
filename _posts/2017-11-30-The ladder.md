@@ -37,7 +37,7 @@ tags: 生活
 -->
 
 
-<a href="http://p.comworld.club/?u=44"><img style="border: 0px" src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/Google%20earth.png"/></a>        
+       
 
 
   自从翻墙以来，感觉是发现了新大陆！最近发现谷歌地球是相当...用一个词形容那就是“惊艳”，玩了一下午简直停不下来，当查看天朝的时候，发现并没有给任何一个城市建模（反正截止目前没得），这也难怪，与世隔绝嘛，大家都懂。           
