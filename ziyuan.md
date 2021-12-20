@@ -26,8 +26,10 @@ title: 资源「USEFUL LINKS」
 <a href="https://www.yuque.com/docs/share/2c78732f-f9ea-4a4c-bbcd-c0e1692646a3" target="_blank" style="text-decoration:none">个人书单📚</a>
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/app%E8%A7%84%E8%8C%83.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://www.yuque.com/docs/share/46e60a9f-f9bb-430b-9b6d-8a9c099cbe62" target="_blank" style="text-decoration:none">影视杂谈</a>&emsp;
+
+
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E9%85%8D%E8%89%B2%E5%99%A8.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/hayatolab/" target="_blank" style="text-decoration:none" > Hayatolab </a>  (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤ &emsp;
+<a href="/hayatolab/" target="_blank" style="text-decoration:none" > Hayatolab </a> (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤ &emsp;
 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://travelkang.fun" target="_blank" style="text-decoration:none" > Travelkang </a> 个人旅行站点 (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤     
