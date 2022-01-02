@@ -7,9 +7,9 @@ comments: true
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/egypt-clipart-desert-pyramid.png" wwidth="100%" height="auto" alt="photos"/>
 
 
-<p><h4>有什么话要对我说吗？</h4>     
-<P><h4>这里是你畅所欲言的地方，可以咨询，</h4>
-<p><h4>可以交流，可以感叹，可以发飙，但不可以订外卖 、、、</h4>   
+<h4>有什么话要对我说吗？</h4>              
+<h4>这里是你畅所欲言的地方，可以咨询，</h4>        
+<h4>可以交流，可以感叹，可以发飙，但不可以订外卖 、、、</h4>             
 
 <div class="text-center" style="margin-top: 15px;">
     <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E5%A4%9A%E5%90%88%E4%B8%80%E6%89%93%E8%B5%8F%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="128" height="128" title="支付宝、微信、手机QQ扫码打赏">
