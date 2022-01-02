@@ -56,15 +56,15 @@ cover_color:
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: 主页
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}   
     - {title: 留言, description: liuyan, url: '/liuyan'}
     - {title: 资源, description: ziyuan, url: '/ziyuan'}
-    - {title: 关于我, description: about, url: '/about'}
+    - {title: 关于, description: about, url: '/about'}
 
           
     
