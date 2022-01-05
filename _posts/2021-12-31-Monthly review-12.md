@@ -25,6 +25,17 @@ tag: 总结
 	<source src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/music/%E8%BF%99%E6%98%AF%E6%88%91%E4%B8%80%E7%94%9F%E4%B8%AD%E6%9C%80%E5%8B%87%E6%95%A2%E7%9A%84%E7%9E%AC%E9%97%B4%20(320%20kbps).mp3" type="audio/mpeg">
 	Your browser does not support the audio tag.
 </audio>
+
+<iframe 
+    frameborder="no" border="0" marginwidth="0" 
+    marginheight="0" width=330 height=86 
+    src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/music/%E8%BF%99%E6%98%AF%E6%88%91%E4%B8%80%E7%94%9F%E4%B8%AD%E6%9C%80%E5%8B%87%E6%95%A2%E7%9A%84%E7%9E%AC%E9%97%B4%20(320%20kbps).mp3">
+</iframe>
+
+​<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/music/%E8%BF%99%E6%98%AF%E6%88%91%E4%B8%80%E7%94%9F%E4%B8%AD%E6%9C%80%E5%8B%87%E6%95%A2%E7%9A%84%E7%9E%AC%E9%97%B4%20(320%20kbps).mp3">
+</audio>
+
 <h6> 
 
 📌 写于 2021年12月31日23:02:50 ，深圳，南方科技大学琳恩图书馆                               
