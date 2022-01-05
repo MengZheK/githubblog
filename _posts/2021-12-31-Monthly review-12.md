@@ -10,7 +10,7 @@ tag: 总结
 <a target="_blank" href="https://robotkang.cc/211231.html">原文地址：https://robostkang.cc/211231.html </a>
 </h6>                           
 
-<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/d67875c38c983988fc6c8de3865ac219.png" width="80%" height="80%" alt="photos"/>     
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/d67875c38c983988fc6c8de3865ac219.png" width="30%" height="30%" alt="photos"/>     
 
 ### 这是我一生中最勇敢的瞬间           
 
