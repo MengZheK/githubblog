@@ -180,14 +180,14 @@ blockquote {
   padding-top: 0.1px;
   padding-bottom: 10px; 
   padding-right: 10px;
-  margin-left: 0px;
+  margin-left: 20px;
   padding-left: 0px;
 
   font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
   font-weight: lighter;
-  font-size: 0.7em;
-  border-left: 5px solid #00dfff; 
+  font-size: 0.9em;
+  border-left: 5px solid #50c878; 
 }
 blockquote p:last-child {
   margin-bottom: 0; }
