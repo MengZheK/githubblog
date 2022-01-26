@@ -45,7 +45,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 
 <p>
 
-<h3> Ps </h3>   
+<!--h3> Ps </h3>   
 <p>
 如果你想搭建一个跟我一样的博客，可以看
 <a href="https://robotkang.cc/1733.html"> Jekyll+Github个人博客构建之路 </a>
@@ -67,7 +67,7 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 本站名称：Robotkang &emsp;        
 本站网址：https://www.robotkang.cc &emsp;         
 </p>
-</div>
+</div-->
 
 <h3> 联系方式 </h3>         
 <script>
