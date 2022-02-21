@@ -99,12 +99,8 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 
 <a  style="color:#272727" target="_blank"> <h1>游戏「Games」</h1></a>  
 </p>
-<a href="http://www.templatesy.com/demo/462/index.html" target="_blank" >2048</a>- 经典小游戏.&emsp;
-<a href="http://www.templatesy.com/demo/194/index.html" target="_blank" >Tank</a>- 经典中的经典...&emsp;
-<a href="http://www.templatesy.com/demo/342/index.html"  target="_blank" >Drum Kit</a>- 在线架子鼓.&emsp;
+<a href="https://www.yikm.net/" target="_blank" >小霸王，其乐无穷</a>- FC在线游戏.&emsp;
 <a href="/gamebird/"  target="_blank" >Flappy Bird</a>- 像素小鸟.&emsp;
 <a href="/gamefly/"  target="_blank" >飞机大战</a>- 仿微信端 &emsp;
 <a href="http://www.jq22.com/demo/jquery-xiangqi-141214215742/"  target="_blank" >中国象棋</a>-国粹&emsp;
 <a href="http://www.jq22.com/demo/jquery-jfcz20160830/"  target="_blank" >见缝插针</a>-看你过得了多少关..&emsp;
-<a href="http://www.jq22.com/demo/jquery-wzq20151231/"  target="_blank" >五子棋</a>-益智小游戏&emsp;
-
