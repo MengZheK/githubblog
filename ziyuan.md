@@ -2,9 +2,9 @@
 layout: page
 title: 资源「USEFUL LINKS」 
 ---
-这是我的资源仓库，我是仓库管理员！哈哈...        
-<P>大家来到此地不必约束，各取所需，各取所需哈..       
-<P>Life is colorful, this website is a window which used to present the color of my life.          
+> 这是我的资源仓库，我是仓库管理员！哈哈...                
+> 大家来到此地不必约束，各取所需，各取所需哈..            
+> Life is colorful, this website is a window which used to present the color of my life.                  
 
 
 <P>       
@@ -34,7 +34,7 @@ title: 资源「USEFUL LINKS」
 <P>       
 <h3> Some useful/beautiful web </h3>   
 <p>
-<a href="https://robotkang.cc/7711.html" target="_blank">资料库</a>- 我的资料库&emsp;
+<a href="https://robotkang.cc/77101.html" target="_blank">资料库</a>- 我的资料库&emsp;
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/log_yuan.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://agneo.co/?rc=rxzyuip5" style="color:#DC143C" target="_blank">梯子[VPN]</a>- 可访问Google的东东 &emsp;
 <a href="http://daohang.lusongsong.com/" target="_blank">博客大全</a>- Blog&emsp;
