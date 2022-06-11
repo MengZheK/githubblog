@@ -7,7 +7,7 @@ date: 2021-05-04
 
 
 一个<span style="text-decoration: line-through">刚刚走出</span>已出走四年多象牙塔的 Maker。<a href="/Mr.Kang_Developer/" target="_blank" style="text-decoration:none">「我的简历」</a>
-<a href="/Mr.Kang_Developer/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/resume_pic.png" width="100%" height="auto" alt="photos" display="block"/></a> 
+
 <div style="color:#FF6633">
 <p>	三尺微命，一介书生🧒。求学于卫星湖畔，黄瓜山下，欲潜心研究智能机器人开发应用之道。然所学颇杂，对诸多方面均有涉猎，喜欢研究一些新技术和关注一些最新的科技~ 
 </p>
@@ -80,13 +80,15 @@ I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, thi
 	<a href="#" onmouseover="mousemethod('block','img2')" onmouseout="mousemethod('none','img2')" style="color:#008B00;text-decoration:none">公众号：蒙古海军船长</a><img id="img2" src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/kanggzh.png" style="display:none;" width="128" height="128" >
  
  
-
-
-<a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
+<a href="/Mr.Kang_Developer/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/resume_pic.png" width="100%" height="auto" alt="photos" display="block"/></a>           
 
 <div class="divcss5-right">
 	<a href="https://robotkang.cc" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E4%BA%A2%E5%BF%97%E5%86%9B%E7%AD%BE%E5%90%8D01.png
 " width="80" height="70" alt="kang"/></a>
-</div> 
+</div>            
+
+<a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>        
+
+
 
 
