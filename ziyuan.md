@@ -104,3 +104,6 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 <a href="/gamefly/"  target="_blank" >飞机大战</a>- 仿微信端 &emsp;
 <a href="http://www.jq22.com/demo/jquery-xiangqi-141214215742/"  target="_blank" >中国象棋</a>-国粹&emsp;
 <a href="http://www.jq22.com/demo/jquery-jfcz20160830/"  target="_blank" >见缝插针</a>-看你过得了多少关..&emsp;
+
+
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/0000002.png" wwidth="100%" height="auto" alt="photos"/>
