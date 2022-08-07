@@ -106,4 +106,4 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 <a href="http://www.jq22.com/demo/jquery-jfcz20160830/"  target="_blank" >见缝插针</a>-看你过得了多少关..&emsp;
 
 
-<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/0000002.png" wwidth="100%" height="auto" alt="photos"/>
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/0000002.webp" wwidth="100%" height="auto" alt="photos"/>
