@@ -29,7 +29,7 @@ title: 资源「USEFUL LINKS」
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/%E9%85%8D%E8%89%B2%E5%99%A8.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://travelkang.fun" target="_blank" style="text-decoration:none" > Travelkang </a> 个人旅行站点 (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤ &emsp;  
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="https://mengzhek.github.io/hayatolab/" target="_blank" style="text-decoration:none" > HayatoLab </a> Ｉ Lᵒᵛᵉᵧₒᵤ 
+<a href="https://mengzhek.github.io/hayatolab/" target="_blank" style="text-decoration:none" > HayatoLab </a> Ｉ Lᵒᵛᵉᵧₒᵤ &emsp; 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://mengzhek.github.io/webstack/" target="_blank" style="text-decoration:none" > WebStack </a> 个人导航站  
  
@@ -38,7 +38,7 @@ title: 资源「USEFUL LINKS」
 <p>
 <a href="https://robotkang.cc/77101.html" target="_blank">资料库</a>- 我的资料库&emsp;
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/log_yuan.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="https://v2neo.org/?rc=rxzyuip5" style="color:#DC143C" target="_blank">梯子[VPN]</a>- 可访问Google的东东 &emsp;
+<a href="https://niceneo.com/?rc=rxzyuip5" style="color:#DC143C" target="_blank">梯子[VPN]</a>- 可访问Google的东东 &emsp;
 <a href="http://daohang.lusongsong.com/" target="_blank">博客大全</a>- Blog&emsp;
 <a href="http://www.sysmini.com" target="_blank">极简系统</a>- 最纯净的系统下载平台       
 
@@ -51,11 +51,8 @@ title: 资源「USEFUL LINKS」
 <a href="http://zh.flightaware.com/live/" target="_blank">实时航班跟踪</a>- 地图实时显示天上的飞机状态，令你大开眼界　
 &nbsp;&nbsp;<a href="https://tool.lu" target="_blank">在线工具</a>- WEB版程序猿的工具箱。
 <p>
-<a href="https://www.portablesoft.org" target="_blank">精品绿色便携软件 </a>- 一个软件分享平台。&emsp;
-<a href="https://www.bfdz.ink/2018/07/06/103/" target="_blank">周浩作品集 </a>- 纪录片。
-<p>
+<a href="https://slyw.me/2018/07/06/103/" target="_blank">周浩作品集 </a>- 纪录片。&emsp;
 <a href="https://archive.org/" target="_blank">互联网档案馆 </a>- 网站时光机。
-
 
 </p>
 
@@ -83,8 +80,6 @@ title: 资源「USEFUL LINKS」
 <h3> Others</h3>  
 <p> 
 Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_blank" > 作业部落 </a>  &emsp;
-<a  href="http://nav.templatesy.com/"  >Templatesy</a>-前端网址导航.
-<p>
 <a href="http://www.w3school.com.cn" target="_blank" > w3school </a>-在w3school上，你可以找到全面的~建站资料「html、css、sql、php...」
 
 <a href="/photos/"  style="color:#272727" target="_blank"> <h1>相册「Photos」</h1></a>  
