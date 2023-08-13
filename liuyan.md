@@ -78,8 +78,9 @@ comments: true
 <script>
 	var	playlist = [
 {title:"这是我一生中最勇敢的瞬间",artist:"棱镜乐队",mp3:"http://music.163.com/song/media/outer/url?id=1366216050.mp3",cover:"http://p4.music.126.net/ysc2LpByNXmzAfz9rRVwYg==/109951165267741474.jpg?param=106x106",},
+{title:"你",artist:"GALA",mp3:"http://www.kumeiwp.com/sub/filestores/2022/02/26/ef8d57b66ea2772e255bedfd25271a35.mp3",cover:"http://p4.music.126.net/ysc2LpByNXmzAfz9rRVwYg==/109951165267741474.jpg?param=106x106",},
 {title:"My All",artist:"浜崎あゆみ",mp3:"http://music.163.com/song/media/outer/url?id=22737627.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
-{title:"Try Everything",artist:"Shakira",mp3:"http://music.163.com/song/media/outer/url?id=405485737.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
+{title:"Try Everything",artist:"Shakira",mp3:"http://www.kumeiwp.com/sub/filestores/2022/03/26/f0a83122719c0cc078d903c6a956cc46.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
 {title:"Victory",artist:"Two Steps From Hell",mp3:"http://music.163.com/song/media/outer/url?id=31654455.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
 {title:"Monody",artist:"TheFatRat,Laura Brehm",mp3:"http://music.163.com/song/media/outer/url?id=36308916.mp3",cover:"http://p3.music.126.net/1odRfg3HXWmYw02EMXKRKQ==/116548232557498.jpg?param=106x106",},
 {title:"Luv Letter",artist:"dj okawari ",mp3:"http://music.163.com/song/media/outer/url?id=406232.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
