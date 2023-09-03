@@ -32,6 +32,11 @@ title: 资源「USEFUL LINKS」
 <a href="https://mengzhek.github.io/hayatolab/" target="_blank" style="text-decoration:none" > HayatoLab </a> Ｉ Lᵒᵛᵉᵧₒᵤ &emsp; 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://mengzhek.github.io/webstack/" target="_blank" style="text-decoration:none" > WebStack </a> 个人导航站  
+&emsp; 
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
+<a href="https://mengzhek.github.io/Movie_TV_Books/Movie&TV.html" target="_blank" style="text-decoration:none" > 影视&书单 </a> 
+
+
  
 <P>       
 <h3> Some useful/beautiful web </h3>   
