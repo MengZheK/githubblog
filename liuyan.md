@@ -77,15 +77,16 @@ comments: true
 
 <script>
 	var	playlist = [
+
+{title:"你好，陌生人",artist:"任然",mp3:"https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/music/%E4%BD%A0%E5%A5%BD%E9%99%8C%E7%94%9F%E4%BA%BA-%E4%BB%BB%E7%84%B6.mp3",cover:"https://y.qq.com/music/photo_new/T002R300x300M000001d6Rh72lAd9T_1.jpg?param=106x106",},		
 {title:"这是我一生中最勇敢的瞬间",artist:"棱镜乐队",mp3:"http://music.163.com/song/media/outer/url?id=1366216050.mp3",cover:"http://p4.music.126.net/ysc2LpByNXmzAfz9rRVwYg==/109951165267741474.jpg?param=106x106",},
 {title:"你",artist:"GALA",mp3:"http://www.kumeiwp.com/sub/filestores/2022/02/26/ef8d57b66ea2772e255bedfd25271a35.mp3",cover:"https://y.qq.com/music/photo_new/T002R300x300M000004QutPc2kzMSz_1.jpg?param=106x106",},
 {title:"My All",artist:"浜崎あゆみ",mp3:"http://music.163.com/song/media/outer/url?id=22737627.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
 {title:"Try Everything",artist:"Shakira",mp3:"http://www.kumeiwp.com/sub/filestores/2022/03/26/f0a83122719c0cc078d903c6a956cc46.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
 {title:"Victory",artist:"Two Steps From Hell",mp3:"http://music.163.com/song/media/outer/url?id=31654455.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
-{title:"Monody",artist:"TheFatRat,Laura Brehm",mp3:"http://music.163.com/song/media/outer/url?id=36308916.mp3",cover:"http://p3.music.126.net/1odRfg3HXWmYw02EMXKRKQ==/116548232557498.jpg?param=106x106",},
+
 {title:"Luv Letter",artist:"dj okawari ",mp3:"http://music.163.com/song/media/outer/url?id=406232.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
-{title:"Born this way",artist:"lady gaga ",mp3:"http://music.163.com/song/media/outer/url?id=21038513.mp3",cover:"http://p4.music.126.net/G2nCsXpMc81lcUY-pOHr9Q==/2528876745541310.jpg?param=106x106",},
-{title:"The Edge of Glory",artist:"Lady Gaga",mp3:"http://music.163.com/song/media/outer/url?id=21038622.mp3",cover:"http://p3.music.126.net/iYG3tZ2xSKrzf65BaDtEJQ==/7929677860524772.jpg?param=106x106",},
+
 {title:"Beautiful",artist:"Eminem ",mp3:"http://music.163.com/song/media/outer/url?id=1405384220.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
 {title:"Hall of Fame",artist:"the script/will.i.am",mp3:"http://music.163.com/song/media/outer/url?id=27508559.mp3",cover:"http://p4.music.126.net/d5ryd0uwq29KWk3bRZ1wsA==/45079976751142.jpg?param=106x106",},
 {title:"刚好遇见你",artist:"李玉刚",mp3:"http://music.163.com/song/media/outer/url?id=486188225.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
