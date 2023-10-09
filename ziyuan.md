@@ -71,7 +71,7 @@ title: 资源「USEFUL LINKS」
 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" > Yilia </a>- Responsive and simple style 优雅简洁响应式主题。「存个档」&emsp;
 
  <p>
-<h3 class="styles_title__wvZvf"> Friends</h3>  
+<h3> Friends</h3>  
  <p>
 <strong>江湖上的事，名头占了两成，功夫占了两成，余下的六成，却要靠黑白两道的朋友们赏脸了。</strong>
 <p>
@@ -87,7 +87,7 @@ title: 资源「USEFUL LINKS」
 Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_blank" > 作业部落 </a>  &emsp;
 <a href="http://www.w3school.com.cn" target="_blank" > w3school </a>-在w3school上，你可以找到全面的~建站资料「html、css、sql、php...」
 
-<a href="/photos/"  style="color:#272727" target="_blank"> <h1>相册「Photos」</h1></a>  
+<a href="/photos/"  style="color:#272727" target="_blank" class="styles_title__wvZvf"> <h1 class="styles_title__wvZvf">相册「Photos」</h1></a>  
 </p>
 
 <a href="/photos/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/tupian.png" width="100%" height="auto" alt="photos" display="block"/></a>
