@@ -87,19 +87,19 @@ title: <a class="styles_title__7fgHH">资源「USEFUL LINKS」 </a>
 Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_blank" > 作业部落 </a>  &emsp;
 <a href="http://www.w3school.com.cn" target="_blank" > w3school </a>-在w3school上，你可以找到全面的~建站资料「html、css、sql、php...」
 
-<h1><a href="/photos/"  style="color:#272727" target="_blank" class="styles_title__7fgHH"> 相册「Photos」</a>  </h1>
+<h1><a href="/photos/"  style="color:#272727" target="_blank" class="styles_title__wvZvf"> 相册「Photos」</a>  </h1>
 </p>
 
 <a href="/photos/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/tupian.png" width="100%" height="auto" alt="photos" display="block"/></a>
 </p>
-<h1><a style="color:#272727" target="_blank" class="styles_title__wvZvf"> 足迹「Footmark」</a>  </h1>
+<h1><a style="color:#272727" target="_blank" class="styles_title__7fgHH"> 足迹「Footmark」</a>  </h1>
 <p>
 <h5>如果一个人的声音和足迹，能被另外一个人永远地铭记或怀念，这就是永恒。<a href="https://travelkang.fun" target="_blank" style="text-decoration:none" > Travelkang </a> 个人旅行站点 (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤ </h5>    
 <br> 
 <iframe style="max-width: 100%" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450px" src="/map/README.html"><br></iframe>
 </p> 
   
-<h1><a  style="color:#272727" target="_blank" class="styles_title__7fgHH"> 游戏「Games」</a>  </h1>
+<h1><a  style="color:#272727" target="_blank" class="styles_title__wvZvf"> 游戏「Games」</a>  </h1>
 </p>
 <a href="https://www.yikm.net/" target="_blank" >小霸王，其乐无穷</a>- FC在线游戏.&emsp;
 <a href="/gamebird/"  target="_blank" >Flappy Bird</a>- 像素小鸟.&emsp;
