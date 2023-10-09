@@ -71,7 +71,7 @@ title: 资源「USEFUL LINKS」
 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" > Yilia </a>- Responsive and simple style 优雅简洁响应式主题。「存个档」&emsp;
 
  <p>
-<h3> Friends</h3>  
+<h3 class="styles_title__wvZvf"> Friends</h3>  
  <p>
 <strong>江湖上的事，名头占了两成，功夫占了两成，余下的六成，却要靠黑白两道的朋友们赏脸了。</strong>
 <p>
