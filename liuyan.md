@@ -78,7 +78,7 @@ comments: true
 <script>
 	var	playlist = [
 
-{title:"你好，陌生人",artist:"任然",mp3:"https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/music/%E4%BD%A0%E5%A5%BD%E9%99%8C%E7%94%9F%E4%BA%BA-%E4%BB%BB%E7%84%B6.mp3",cover:"https://y.qq.com/music/photo_new/T002R300x300M000001d6Rh72lAd9T_1.jpg?param=106x106",},		
+{title:"你好，陌生人",artist:"任然",mp3:"https://lh-sycdn.kuwo.cn/ecedd413dd5995d81bd28e1751ed9734/65241c2e/resource/n1/91/82/3334203395.mp3",cover:"https://y.qq.com/music/photo_new/T002R300x300M000001d6Rh72lAd9T_1.jpg?param=106x106",},		
 {title:"这是我一生中最勇敢的瞬间",artist:"棱镜乐队",mp3:"http://music.163.com/song/media/outer/url?id=1366216050.mp3",cover:"http://p4.music.126.net/ysc2LpByNXmzAfz9rRVwYg==/109951165267741474.jpg?param=106x106",},
 {title:"你",artist:"GALA",mp3:"http://www.kumeiwp.com/sub/filestores/2022/02/26/ef8d57b66ea2772e255bedfd25271a35.mp3",cover:"https://y.qq.com/music/photo_new/T002R300x300M000004QutPc2kzMSz_1.jpg?param=106x106",},
 {title:"My All",artist:"浜崎あゆみ",mp3:"http://music.163.com/song/media/outer/url?id=22737627.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
