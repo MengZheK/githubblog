@@ -214,7 +214,7 @@ code {
   background: #e8f2fb;
   border: 1px solid #c9e1f6;
   border-radius: 3px;
-  font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: "Quote","Noto Serif CJK BOLD","Lato","Noto Serif","Noto Serif CJK SC","Noto Serif CJK","Source Han Serif SC","Source Han Serif","source-han-serif-sc","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue", jinkaiFont;
   /*"ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
   font-size: 1.0em;
   vertical-align: bottom;
