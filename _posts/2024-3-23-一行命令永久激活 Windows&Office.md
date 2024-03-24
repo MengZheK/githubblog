@@ -13,7 +13,7 @@ tag: 技术
 > 不支持Mac上的office     
 
 一行命令永久激活 Windows/Office ：
-irm https://massgrave.dev/get | iex
+' irm https://massgrave.dev/get | iex '
 
 而且这个激活脚本代码竟然还放在 MS 自家的 GitHub 上🤣：https://massgrave.dev。
 
