@@ -1,22 +1,28 @@
 ---
 layout: post
-title: "复盘丨Monthly Review-7月"
-date: 2023-7-31 
-description: "月度总结"
-tag: 总结
+title: "一行命令永久激活 Windows/Office"
+date: 2024-3-23 
+description: "Windows"
+tag: 技术
 ---   
 
 <h6><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/copyright.png" alt="copyright" style="display:inline;margin-bottom: -5px;" width="20" height="20"> 版权声明：本文为博主原创文章，未经博主允许不得转载。
-<a target="_blank" href="https://robotkang.cc/23731.html">原文地址：https://robotkang.cc/23731.html </a>
+<a target="_blank" href="https://robotkang.cc/24323.html">原文地址：https://robotkang.cc/24323.html </a>
 </h6>                           
         
-> 7月7日晴      
+> 不支持Mac上的office     
 
-呀~😪                     
+一行命令永久激活 Windows/Office ：
+irm https://massgrave.dev/get | iex
+
+而且这个激活脚本代码竟然还放在 MS 自家的 GitHub 上🤣：https://massgrave.dev。
+
+
+
                  
 <h6> 
 
-📌 写于 2023年7月31日22:43:11 ，北京                                
+📌 写于 2024年3月23日14点13分 ，北京                                
 
 </h6>             
 
