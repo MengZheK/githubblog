@@ -254,12 +254,12 @@ a.button { display: inline-block; }
 	100% { width: 80%; }
 }
 .tech-skill-list__item-sql {
-	width: 60%;
+	width: 50%;
 	animation-name: bar-sql;
 }
 @keyframes bar-sql {
 	0% { width: 0; }
-	100% { width: 60%; }
+	100% { width: 50%; }
 }
 .tech-skill-list__item-photoshop {
 	width: 45%;
