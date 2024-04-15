@@ -36,7 +36,12 @@ title: <a class="styles_title__7fgHH">资源「USEFUL LINKS」 </a>
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/icon/Colorfavs.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="https://kk.robotkang.cc/Movie&TV.html" target="_blank" style="text-decoration:none" > 影视&书单 </a> 
 
-
+<h1><a style="color:#272727" target="_blank" class="styles_title__7fgHH"> 足迹「Footmark」</a>  </h1>
+<p>
+<h5>如果一个人的声音和足迹，能被另外一个人永远地铭记或怀念，这就是永恒。<a href="https://travelkang.fun" target="_blank" style="text-decoration:none" > Travelkang </a> 个人旅行站点 (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤ </h5>    
+<br> 
+<iframe style="max-width: 100%" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450px" src="/map/README.html"><br></iframe>
+</p>
  
 <P>       
 <h3> Some useful/beautiful web </h3>   
@@ -92,12 +97,7 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 
 <a href="/photos/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/tupian.png" width="100%" height="auto" alt="photos" display="block"/></a>
 </p>
-<h1><a style="color:#272727" target="_blank" class="styles_title__7fgHH"> 足迹「Footmark」</a>  </h1>
-<p>
-<h5>如果一个人的声音和足迹，能被另外一个人永远地铭记或怀念，这就是永恒。<a href="https://travelkang.fun" target="_blank" style="text-decoration:none" > Travelkang </a> 个人旅行站点 (๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤ </h5>    
-<br> 
-<iframe style="max-width: 100%" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450px" src="/map/README.html"><br></iframe>
-</p> 
+ 
   
 <h1><a  style="color:#272727" target="_blank" class="styles_title__wvZvf"> 游戏「Games」</a>  </h1>
 </p>
