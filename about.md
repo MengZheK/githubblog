@@ -6,7 +6,7 @@ date: 2023-08-06
 <a href="/photos/" target="_blank"><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E5%A4%A9%E7%AD%96.png" width="150" height="150" alt="photos"/></a>
 
 
-一个<span style="text-decoration: line-through">刚刚走出</span>已出走六年多象牙塔的 Maker。<a href="/Mr.Kang_Developer/" target="_blank" style="text-decoration:none">「我的简历」</a>
+一个<span style="text-decoration: line-through">刚刚走出</span>已出走七年多象牙塔的 Maker。<a href="/Mr.Kang_Developer/" target="_blank" style="text-decoration:none">「我的简历」</a>
 
 <div style="color:#FF6633">
 <p>	三尺微命，一介书生🧒。求学于卫星湖畔，黄瓜山下，欲潜心研究智能机器人开发应用之道。然所学颇杂，对诸多方面均有涉猎，喜欢研究一些新技术和关注一些最新的科技~ 
@@ -23,7 +23,7 @@ date: 2023-08-06
 
 </div>
 <p>
-同时喜欢老罗和晓松，虽然他俩还撕逼，罗跟谁不撕逼，爱听老罗的单口相声           
+<span style="text-decoration: line-through">同时喜欢老罗和晓松，虽然他俩还撕逼，罗跟谁不撕逼，爱听老罗的单口相声</span>           
 <p>
 I'm a single-dog.  But codes and godgirl are my favorite.  Life is colorful, this website   is a window which used to present the color of my life.       
 
