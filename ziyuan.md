@@ -134,7 +134,7 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 		</script>
 	</head>
 	<body>
-	<div id="embed" style="height: 400px; width: 660px; "></div>
+	<div id="embed" style="height: 400px; width: 100%; "></div>
 	</body>
 	</html>
 
