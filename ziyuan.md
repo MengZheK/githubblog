@@ -109,3 +109,35 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 
 
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/0000002.webp" wwidth="100%" height="auto" alt="photos"/>
+
+	<html>
+	<head>
+		<script type="text/javascript" src="https://zh-hans.bullionvault.com/chart/bullionvaultchart.js" ></script>
+		<script type="text/javascript" >
+			var options = {
+				bullion: 'gold',
+				currency: 'USD',
+				timeframe: '1w',
+				chartType: 'line',
+				miniChartModeAxis : 'oz',
+				referrerID: 'MYUSERNAME',
+				containerDefinedSize: true,
+				miniChartMode: false,
+				displayLatestPriceLine: true,
+				switchBullion: true,
+				switchCurrency: true,
+				switchTimeframe: true,
+				switchChartType: true,
+				exportButton: true
+			};
+			var chartBV = new BullionVaultChart(options, 'embed');
+		</script>
+	</head>
+	<body>
+	<div id="embed" style="height: 400px; width: 660px; "></div>
+	</body>
+	</html>
+
+
+
+
