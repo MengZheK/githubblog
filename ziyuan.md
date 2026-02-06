@@ -128,7 +128,7 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 				switchCurrency: true,
 				switchTimeframe: true,
 				switchChartType: true,
-				exportButton: true
+				exportButton: false
 			};
 			var chartBV = new BullionVaultChart(options, 'embed');
 		</script>
